@@ -4,5 +4,11 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Escenes/PROVA_MenuInici.unity
+    guid: da3cc54ceb5683b409e6d5de0bdd2d9f
+  - enabled: 1
+    path: Assets/Escenes/EscenaBancalet.unity
+    guid: bb16e952cd5661b4289207aa3ca3112a
   m_configObjects: {}
