@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2594fbc8c3e1ae4d8b92d863ab7feb1, type: 3}
+  m_Name: PROVAPlanta_Meloner
+  m_EditorClassIdentifier: 
+  fases:
+  - finsDia: 6
+    spriteSenseCollita: {fileID: 21300000, guid: 90d5fa9c1ac3cf04e828e471320045e9, type: 3}
+    spriteAmbCollita: {fileID: 0}
+    maxCollita: 0
+  - finsDia: 14
+    spriteSenseCollita: {fileID: 21300000, guid: 7f6634303abaeec40b8a06293ca2405d, type: 3}
+    spriteAmbCollita: {fileID: 0}
+    maxCollita: 0
+  - finsDia: 20
+    spriteSenseCollita: {fileID: 21300000, guid: efc30afe2a687d845b1583d3ea67fc26, type: 3}
+    spriteAmbCollita: {fileID: 21300000, guid: 0ca4595d7837b6148a0973fd463df42e, type: 3}
+    maxCollita: 1
+  - finsDia: 30
+    spriteSenseCollita: {fileID: 21300000, guid: 60ce4b0fd4e643c48a6efae0ddc74d6e, type: 3}
+    spriteAmbCollita: {fileID: 21300000, guid: 83a97242eac7740449b25bdb93b46c72, type: 3}
+    maxCollita: 3
+  collita: {fileID: 11400000, guid: 0c7d44f1187ea644fbb10ea4f21b9071, type: 2}
+  aiguaNecessaria: 0
+  spriteMort: {fileID: 21300000, guid: 18cd3f062e6ffc44a99b47fbd787dc4c, type: 3}

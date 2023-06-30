@@ -1,0 +1,612 @@
+fileFormatVersion: 2
+guid: 06c1aa830c7850c42ab93f34d645897a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8776142395818839351
+    second: Front_Idle
+  - first:
+      213: -6622377759136544419
+    second: Front_Caminar_1
+  - first:
+      213: -933770631547187512
+    second: Front_Caminar_2
+  - first:
+      213: 542204164381313832
+    second: Front_Caminar_3
+  - first:
+      213: -5442544241201854403
+    second: Front_Caminar_4
+  - first:
+      213: -1496876388093613115
+    second: Darrere_Idle
+  - first:
+      213: 8722896065483398966
+    second: Darrere_Caminar_1
+  - first:
+      213: 1563941241830987378
+    second: Darrere_Caminar_2
+  - first:
+      213: -8583941441594350034
+    second: Darrere_Caminar_3
+  - first:
+      213: -8151424711155530129
+    second: Darrere_Caminar_4
+  - first:
+      213: 3388816721166752052
+    second: Esquerra_Idle
+  - first:
+      213: -1475903065936886793
+    second: Esquerra_Caminar_1
+  - first:
+      213: 6303297994595015949
+    second: Esquerra_Caminar_2
+  - first:
+      213: -5395360634453243632
+    second: Esquerra_Caminar_3
+  - first:
+      213: 1246873482588136610
+    second: Esquerra_Caminar_4
+  - first:
+      213: -635451834419137217
+    second: Dreta_Idle
+  - first:
+      213: 5211201115189331203
+    second: Dreta_Caminar_1
+  - first:
+      213: -7627884714511299432
+    second: Dreta_Caminar_2
+  - first:
+      213: 8907240548725741082
+    second: Dreta_Caminar_3
+  - first:
+      213: 1733466579621325944
+    second: Dreta_Caminar_4
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Front_Idle
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7104
+        width: 1450
+        height: 2368
+      alignment: 9
+      pivot: {x: 0.5, y: 0.01855}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73d0701d20f1bc970800000000000000
+      internalID: 8776142395818839351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Front_Caminar_1
+      rect:
+        serializedVersion: 2
+        x: 1450
+        y: 7104
+        width: 1450
+        height: 2368
+      alignment: 9
+      pivot: {x: 0.5, y: 0.01855}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d590832d3869814a0800000000000000
+      internalID: -6622377759136544419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Front_Caminar_2
+      rect:
+        serializedVersion: 2
+        x: 2900
+        y: 7104
+        width: 1450
+        height: 2368
+      alignment: 9
+      pivot: {x: 0.5, y: 0.01855}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ce00f4de849a03f0800000000000000
+      internalID: -933770631547187512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Front_Caminar_3
+      rect:
+        serializedVersion: 2
+        x: 4350
+        y: 7104
+        width: 1450
+        height: 2368
+      alignment: 9
+      pivot: {x: 0.5, y: 0.01855}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82b8fa590db468700800000000000000
+      internalID: 542204164381313832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Front_Caminar_4
+      rect:
+        serializedVersion: 2
+        x: 5800
+        y: 7104
+        width: 1450
+        height: 2368
+      alignment: 9
+      pivot: {x: 0.5, y: 0.01855}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d38c0d439d23874b0800000000000000
+      internalID: -5442544241201854403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darrere_Idle
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4736
+        width: 1450
+        height: 2368
+      alignment: 9
+      pivot: {x: 0.5, y: 0.01855}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cba2071bd60a3be0800000000000000
+      internalID: -1496876388093613115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darrere_Caminar_1
+      rect:
+        serializedVersion: 2
+        x: 1450
+        y: 4736
+        width: 1450
+        height: 2368
+      alignment: 9
+      pivot: {x: 0.5, y: 0.01855}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63f5ac371c3fd0970800000000000000
+      internalID: 8722896065483398966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darrere_Caminar_2
+      rect:
+        serializedVersion: 2
+        x: 2900
+        y: 4736
+        width: 1450
+        height: 2368
+      alignment: 9
+      pivot: {x: 0.5, y: 0.01855}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2765be8f54c34b510800000000000000
+      internalID: 1563941241830987378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darrere_Caminar_3
+      rect:
+        serializedVersion: 2
+        x: 4350
+        y: 4736
+        width: 1450
+        height: 2368
+      alignment: 9
+      pivot: {x: 0.5, y: 0.01855}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e26a3011db6bfd880800000000000000
+      internalID: -8583941441594350034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darrere_Caminar_4
+      rect:
+        serializedVersion: 2
+        x: 5800
+        y: 4736
+        width: 1450
+        height: 2368
+      alignment: 9
+      pivot: {x: 0.5, y: 0.01855}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f66cb3ec96250ee80800000000000000
+      internalID: -8151424711155530129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Esquerra_Idle
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2368
+        width: 1450
+        height: 2368
+      alignment: 9
+      pivot: {x: 0.5, y: 0.01855}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4395c0a6ade770f20800000000000000
+      internalID: 3388816721166752052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Esquerra_Caminar_1
+      rect:
+        serializedVersion: 2
+        x: 1450
+        y: 2368
+        width: 1450
+        height: 2368
+      alignment: 9
+      pivot: {x: 0.5, y: 0.01855}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f30cef2bf9848be0800000000000000
+      internalID: -1475903065936886793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Esquerra_Caminar_2
+      rect:
+        serializedVersion: 2
+        x: 2900
+        y: 2368
+        width: 1450
+        height: 2368
+      alignment: 9
+      pivot: {x: 0.5, y: 0.01855}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0d94493120d97750800000000000000
+      internalID: 6303297994595015949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Esquerra_Caminar_3
+      rect:
+        serializedVersion: 2
+        x: 4350
+        y: 2368
+        width: 1450
+        height: 2368
+      alignment: 9
+      pivot: {x: 0.5, y: 0.01855}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 019c94cb614df15b0800000000000000
+      internalID: -5395360634453243632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Esquerra_Caminar_4
+      rect:
+        serializedVersion: 2
+        x: 5800
+        y: 2368
+        width: 1450
+        height: 2368
+      alignment: 9
+      pivot: {x: 0.5, y: 0.01855}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a4258183d8cd4110800000000000000
+      internalID: 1246873482588136610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dreta_Idle
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7
+        width: 1450
+        height: 2368
+      alignment: 9
+      pivot: {x: 0.5, y: 0.01855}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f35b3916ceb6e27f0800000000000000
+      internalID: -635451834419137217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dreta_Caminar_1
+      rect:
+        serializedVersion: 2
+        x: 1450
+        y: 0
+        width: 1450
+        height: 2368
+      alignment: 9
+      pivot: {x: 0.5, y: 0.01855}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 305cafbddc7e15840800000000000000
+      internalID: 5211201115189331203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dreta_Caminar_2
+      rect:
+        serializedVersion: 2
+        x: 2900
+        y: 0
+        width: 1450
+        height: 2368
+      alignment: 9
+      pivot: {x: 0.5, y: 0.01855}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89c0ce3344f442690800000000000000
+      internalID: -7627884714511299432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dreta_Caminar_3
+      rect:
+        serializedVersion: 2
+        x: 4350
+        y: 7
+        width: 1450
+        height: 2368
+      alignment: 9
+      pivot: {x: 0.5, y: 0.01855}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a16d0c32610ec9b70800000000000000
+      internalID: 8907240548725741082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dreta_Caminar_4
+      rect:
+        serializedVersion: 2
+        x: 5800
+        y: 0
+        width: 1450
+        height: 2368
+      alignment: 9
+      pivot: {x: 0.5, y: 0.01855}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87c275c7ba28e0810800000000000000
+      internalID: 1733466579621325944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: c55c4892b67fab245b8865f8193a4057
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

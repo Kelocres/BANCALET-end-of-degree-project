@@ -1,0 +1,178 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4f3eb5a6339786458d86ec37755d807, type: 3}
+  m_Name: PROVA_InventariJugador
+  m_EditorClassIdentifier: 
+  savePath: /prova_inventarijugador.save
+  database: {fileID: 11400000, guid: 101db0b2cf8b45645bec5206e92c152d, type: 2}
+  Container:
+    Items:
+    - AllowedItems: 
+      item:
+        Name: 
+        Id: -1
+        buffs: []
+        uiDisplay: {fileID: 0}
+        description: 
+      amount: 0
+    - AllowedItems: 
+      item:
+        Name: 
+        Id: 13
+        buffs: []
+        uiDisplay: {fileID: 0}
+        description: 
+      amount: 50
+    - AllowedItems: 
+      item:
+        Name: 
+        Id: -1
+        buffs: []
+        uiDisplay: {fileID: 0}
+        description: 
+      amount: 0
+    - AllowedItems: 
+      item:
+        Name: 
+        Id: -1
+        buffs: []
+        uiDisplay: {fileID: 0}
+        description: 
+      amount: 0
+    - AllowedItems: 
+      item:
+        Name: 
+        Id: -1
+        buffs: []
+        uiDisplay: {fileID: 0}
+        description: 
+      amount: 0
+    - AllowedItems: 
+      item:
+        Name: 
+        Id: -1
+        buffs: []
+        uiDisplay: {fileID: 0}
+        description: 
+      amount: 0
+    - AllowedItems: 
+      item:
+        Name: 
+        Id: 12
+        buffs: []
+        uiDisplay: {fileID: 0}
+        description: 
+      amount: 3
+    - AllowedItems: 
+      item:
+        Name: 
+        Id: -1
+        buffs: []
+        uiDisplay: {fileID: 0}
+        description: 
+      amount: 0
+    - AllowedItems: 
+      item:
+        Name: 
+        Id: -1
+        buffs: []
+        uiDisplay: {fileID: 0}
+        description: 
+      amount: 0
+    - AllowedItems: 
+      item:
+        Name: 
+        Id: -1
+        buffs: []
+        uiDisplay: {fileID: 0}
+        description: 
+      amount: 0
+    - AllowedItems: 
+      item:
+        Name: 
+        Id: 0
+        buffs: []
+        uiDisplay: {fileID: 0}
+        description: 
+      amount: 10
+    - AllowedItems: 
+      item:
+        Name: 
+        Id: 1
+        buffs: []
+        uiDisplay: {fileID: 0}
+        description: 
+      amount: 10
+    - AllowedItems: 
+      item:
+        Name: 
+        Id: 2
+        buffs: []
+        uiDisplay: {fileID: 0}
+        description: 
+      amount: 10
+    - AllowedItems: 
+      item:
+        Name: 
+        Id: 3
+        buffs: []
+        uiDisplay: {fileID: 0}
+        description: 
+      amount: 10
+    - AllowedItems: 
+      item:
+        Name: 
+        Id: 4
+        buffs: []
+        uiDisplay: {fileID: 0}
+        description: 
+      amount: 10
+    - AllowedItems: 
+      item:
+        Name: 
+        Id: 5
+        buffs: []
+        uiDisplay: {fileID: 0}
+        description: 
+      amount: 10
+    - AllowedItems: 
+      item:
+        Name: 
+        Id: 6
+        buffs: []
+        uiDisplay: {fileID: 0}
+        description: 
+      amount: 10
+    - AllowedItems: 
+      item:
+        Name: 
+        Id: 9
+        buffs: []
+        uiDisplay: {fileID: 0}
+        description: 
+      amount: 10
+    - AllowedItems: 
+      item:
+        Name: 
+        Id: 8
+        buffs: []
+        uiDisplay: {fileID: 0}
+        description: 
+      amount: 10
+    - AllowedItems: 
+      item:
+        Name: 
+        Id: 7
+        buffs: []
+        uiDisplay: {fileID: 0}
+        description: 
+      amount: 10

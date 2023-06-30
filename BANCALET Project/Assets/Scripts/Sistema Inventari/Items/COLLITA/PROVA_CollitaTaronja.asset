@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d622efcefebc9ae4ab2cecfbdd08dba9, type: 3}
+  m_Name: PROVA_CollitaTaronja
+  m_EditorClassIdentifier: 
+  uiDisplay: {fileID: 21300000, guid: 6fa1150fe69a37147b9ae084fcbc774d, type: 3}
+  stackable: 1
+  type: 1
+  description: "Collita del taronjer. \nTe la pots menjar per a recuperar 10 punts
+    d'Alimentaci\xF3 o extraure la llavor des de l'Inventari."
+  data:
+    Name: Taronja
+    Id: -1
+    buffs: []
+    uiDisplay: {fileID: 0}
+    description: 
+  actionConsumption: 1
+  costVenta: 0
+  quanti_Alimentar: 10
+  seed: {fileID: 11400000, guid: 5f2e86a5ade558044bcbeba895ac5b77, type: 2}

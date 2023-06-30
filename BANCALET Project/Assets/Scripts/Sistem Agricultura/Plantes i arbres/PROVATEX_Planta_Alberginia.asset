@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3f561c106d83004ab7811ec154f429b, type: 3}
+  m_Name: PROVATEX_Planta_Alberginia
+  m_EditorClassIdentifier: 
+  fases:
+  - finsDia: 5
+    matSenseCollita: {fileID: 2100000, guid: ac32092132175e944a3d2df9ce1fe9b9, type: 2}
+    matAmbCollita: {fileID: 0}
+    maxCollita: 0
+  - finsDia: 12
+    matSenseCollita: {fileID: 2100000, guid: eaaea14bb9e7b6742ae2f574420cdc53, type: 2}
+    matAmbCollita: {fileID: 0}
+    maxCollita: 0
+  - finsDia: 20
+    matSenseCollita: {fileID: 2100000, guid: 5914c3112cbdf4a4bb669f05dda1d239, type: 2}
+    matAmbCollita: {fileID: 2100000, guid: e9794ae30029fe4478fc7d9e964a15cb, type: 2}
+    maxCollita: 2
+  - finsDia: 30
+    matSenseCollita: {fileID: 2100000, guid: 59d01280ba843614db246422e0028031, type: 2}
+    matAmbCollita: {fileID: 2100000, guid: 4c98f250c3c26d3448061ad22d23c56f, type: 2}
+    maxCollita: 4
+  collita: {fileID: 11400000, guid: 1218f4786a1e6c049b8efb01855b3387, type: 2}
+  aiguaNecessaria: 0
+  matMort: {fileID: 2100000, guid: 57c16fcaf03c785478d24f68e54d53d5, type: 2}

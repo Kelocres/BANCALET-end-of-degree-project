@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3f561c106d83004ab7811ec154f429b, type: 3}
+  m_Name: PROVATEX_Arbre_Ametler
+  m_EditorClassIdentifier: 
+  fases:
+  - finsDia: 4
+    matSenseCollita: {fileID: 2100000, guid: 50e63b5c6caac274b9110d81e034d508, type: 2}
+    matAmbCollita: {fileID: 0}
+    maxCollita: 0
+  - finsDia: 10
+    matSenseCollita: {fileID: 2100000, guid: ad0c18a3ab9fc564987314a602d2e230, type: 2}
+    matAmbCollita: {fileID: 0}
+    maxCollita: 0
+  - finsDia: 18
+    matSenseCollita: {fileID: 2100000, guid: ae1d11f2cd6767642b903224fd1ec851, type: 2}
+    matAmbCollita: {fileID: 0}
+    maxCollita: 0
+  - finsDia: 40
+    matSenseCollita: {fileID: 2100000, guid: c1ae85cc0fd09ab4fb740b518c388c69, type: 2}
+    matAmbCollita: {fileID: 0}
+    maxCollita: 0
+  - finsDia: 60
+    matSenseCollita: {fileID: 2100000, guid: d7ce6ae470798e04ba6ad0f398f3bb78, type: 2}
+    matAmbCollita: {fileID: 2100000, guid: edd8b42aa77fe124aa22d219d7917525, type: 2}
+    maxCollita: 4
+  - finsDia: 100
+    matSenseCollita: {fileID: 2100000, guid: d7ce6ae470798e04ba6ad0f398f3bb78, type: 2}
+    matAmbCollita: {fileID: 2100000, guid: d775fc94204a0a54e83f18a74b871e11, type: 2}
+    maxCollita: 10
+  collita: {fileID: 11400000, guid: 671979781d045af40bf59ab7df408bad, type: 2}
+  aiguaNecessaria: 0
+  matMort: {fileID: 2100000, guid: bfa940792fd0d9148a07833ce66bd4dc, type: 2}
+  esArbre: 1

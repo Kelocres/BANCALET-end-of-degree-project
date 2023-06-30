@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2594fbc8c3e1ae4d8b92d863ab7feb1, type: 3}
+  m_Name: PROVAArbre_Ametler
+  m_EditorClassIdentifier: 
+  fases:
+  - finsDia: 4
+    spriteSenseCollita: {fileID: 21300000, guid: 42aa547c8887e5b47aa114d80ecaa1c8, type: 3}
+    spriteAmbCollita: {fileID: 0}
+    maxCollita: 0
+  - finsDia: 10
+    spriteSenseCollita: {fileID: 21300000, guid: 2e10e051e9e78ff42b16bd7a26b75391, type: 3}
+    spriteAmbCollita: {fileID: 0}
+    maxCollita: 0
+  - finsDia: 18
+    spriteSenseCollita: {fileID: 21300000, guid: 8cfc539112ea63046a0a7ceef40758ca, type: 3}
+    spriteAmbCollita: {fileID: 0}
+    maxCollita: 0
+  - finsDia: 40
+    spriteSenseCollita: {fileID: 21300000, guid: c220d0cdd11985d44a4a4281a9024df4, type: 3}
+    spriteAmbCollita: {fileID: 0}
+    maxCollita: 0
+  - finsDia: 60
+    spriteSenseCollita: {fileID: 21300000, guid: f334a10400a690e41a5b718748d52dd2, type: 3}
+    spriteAmbCollita: {fileID: 21300000, guid: 5644280c06976f84e95d06e284e773bf, type: 3}
+    maxCollita: 4
+  - finsDia: 100
+    spriteSenseCollita: {fileID: 21300000, guid: f334a10400a690e41a5b718748d52dd2, type: 3}
+    spriteAmbCollita: {fileID: 21300000, guid: 0dfa1cdcee753714b9ec2769ad73c90d, type: 3}
+    maxCollita: 10
+  collita: {fileID: 11400000, guid: 671979781d045af40bf59ab7df408bad, type: 2}
+  aiguaNecessaria: 0
+  spriteMort: {fileID: 21300000, guid: 863ed78440ee0b04fa1d7b5cae1a0679, type: 3}
