@@ -19,115 +19,11 @@ MonoBehaviour:
     - AllowedItems: 
       item:
         Name: Llavor de vinya
-        Id: 18
-        buffs: []
-        uiDisplay: {fileID: 0}
-        description: 
-      amount: 2
-    - AllowedItems: 
-      item:
-        Name: 
-        Id: -1
-        buffs: []
-        uiDisplay: {fileID: 0}
-        description: 
-      amount: 0
-    - AllowedItems: 
-      item:
-        Name: 
-        Id: -1
-        buffs: []
-        uiDisplay: {fileID: 0}
-        description: 
-      amount: 0
-    - AllowedItems: 
-      item:
-        Name: 
-        Id: -1
-        buffs: []
-        uiDisplay: {fileID: 0}
-        description: 
-      amount: 0
-    - AllowedItems: 
-      item:
-        Name: 
-        Id: -1
-        buffs: []
-        uiDisplay: {fileID: 0}
-        description: 
-      amount: 0
-    - AllowedItems: 
-      item:
-        Name: 
-        Id: -1
-        buffs: []
-        uiDisplay: {fileID: 0}
-        description: 
-      amount: 0
-    - AllowedItems: 
-      item:
-        Name: 
-        Id: -1
-        buffs: []
-        uiDisplay: {fileID: 0}
-        description: 
-      amount: 0
-    - AllowedItems: 
-      item:
-        Name: 
-        Id: -1
-        buffs: []
-        uiDisplay: {fileID: 0}
-        description: 
-      amount: 0
-    - AllowedItems: 
-      item:
-        Name: 
-        Id: -1
-        buffs: []
-        uiDisplay: {fileID: 0}
-        description: 
-      amount: 0
-    - AllowedItems: 
-      item:
-        Name: 
-        Id: -1
-        buffs: []
-        uiDisplay: {fileID: 0}
-        description: 
-      amount: 0
-    - AllowedItems: 
-      item:
-        Name: 
-        Id: -1
-        buffs: []
-        uiDisplay: {fileID: 0}
-        description: 
-      amount: 0
-    - AllowedItems: 
-      item:
-        Name: 
-        Id: -1
-        buffs: []
-        uiDisplay: {fileID: 0}
-        description: 
-      amount: 0
-    - AllowedItems: 
-      item:
-        Name: 
-        Id: -1
-        buffs: []
-        uiDisplay: {fileID: 0}
-        description: 
-      amount: 0
-    - AllowedItems: 
-      item:
-        Name: 
         Id: 3
         buffs: []
         uiDisplay: {fileID: 0}
         description: 
-      amount: 8
+      amount: 10
     - AllowedItems: 
       item:
         Name: 
@@ -135,7 +31,55 @@ MonoBehaviour:
         buffs: []
         uiDisplay: {fileID: 0}
         description: 
-      amount: 20
+      amount: 10
+    - AllowedItems: 
+      item:
+        Name: 
+        Id: 5
+        buffs: []
+        uiDisplay: {fileID: 0}
+        description: 
+      amount: 10
+    - AllowedItems: 
+      item:
+        Name: 
+        Id: 6
+        buffs: []
+        uiDisplay: {fileID: 0}
+        description: 
+      amount: 10
+    - AllowedItems: 
+      item:
+        Name: 
+        Id: 15
+        buffs: []
+        uiDisplay: {fileID: 0}
+        description: 
+      amount: 10
+    - AllowedItems: 
+      item:
+        Name: 
+        Id: 16
+        buffs: []
+        uiDisplay: {fileID: 0}
+        description: 
+      amount: 10
+    - AllowedItems: 
+      item:
+        Name: 
+        Id: 17
+        buffs: []
+        uiDisplay: {fileID: 0}
+        description: 
+      amount: 10
+    - AllowedItems: 
+      item:
+        Name: 
+        Id: 18
+        buffs: []
+        uiDisplay: {fileID: 0}
+        description: 
+      amount: 10
     - AllowedItems: 
       item:
         Name: 
@@ -147,11 +91,67 @@ MonoBehaviour:
     - AllowedItems: 
       item:
         Name: 
-        Id: 6
+        Id: -1
         buffs: []
         uiDisplay: {fileID: 0}
         description: 
-      amount: 20
+      amount: 0
+    - AllowedItems: 
+      item:
+        Name: 
+        Id: -1
+        buffs: []
+        uiDisplay: {fileID: 0}
+        description: 
+      amount: 0
+    - AllowedItems: 
+      item:
+        Name: 
+        Id: -1
+        buffs: []
+        uiDisplay: {fileID: 0}
+        description: 
+      amount: 0
+    - AllowedItems: 
+      item:
+        Name: 
+        Id: -1
+        buffs: []
+        uiDisplay: {fileID: 0}
+        description: 
+      amount: 0
+    - AllowedItems: 
+      item:
+        Name: 
+        Id: -1
+        buffs: []
+        uiDisplay: {fileID: 0}
+        description: 
+      amount: 8
+    - AllowedItems: 
+      item:
+        Name: 
+        Id: -1
+        buffs: []
+        uiDisplay: {fileID: 0}
+        description: 
+      amount: 0
+    - AllowedItems: 
+      item:
+        Name: 
+        Id: -1
+        buffs: []
+        uiDisplay: {fileID: 0}
+        description: 
+      amount: 0
+    - AllowedItems: 
+      item:
+        Name: 
+        Id: -1
+        buffs: []
+        uiDisplay: {fileID: 0}
+        description: 
+      amount: 0
     - AllowedItems: 
       item:
         Name: 
