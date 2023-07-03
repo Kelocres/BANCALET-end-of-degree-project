@@ -18,20 +18,12 @@ MonoBehaviour:
     Items:
     - AllowedItems: 
       item:
-        Name: 
-        Id: -1
+        Name: Llavor de vinya
+        Id: 18
         buffs: []
         uiDisplay: {fileID: 0}
         description: 
-      amount: 0
-    - AllowedItems: 
-      item:
-        Name: 
-        Id: 13
-        buffs: []
-        uiDisplay: {fileID: 0}
-        description: 
-      amount: 50
+      amount: 2
     - AllowedItems: 
       item:
         Name: 
@@ -67,11 +59,27 @@ MonoBehaviour:
     - AllowedItems: 
       item:
         Name: 
-        Id: 12
+        Id: -1
         buffs: []
         uiDisplay: {fileID: 0}
         description: 
-      amount: 3
+      amount: 0
+    - AllowedItems: 
+      item:
+        Name: 
+        Id: -1
+        buffs: []
+        uiDisplay: {fileID: 0}
+        description: 
+      amount: 0
+    - AllowedItems: 
+      item:
+        Name: 
+        Id: -1
+        buffs: []
+        uiDisplay: {fileID: 0}
+        description: 
+      amount: 0
     - AllowedItems: 
       item:
         Name: 
@@ -99,27 +107,19 @@ MonoBehaviour:
     - AllowedItems: 
       item:
         Name: 
-        Id: 0
+        Id: -1
         buffs: []
         uiDisplay: {fileID: 0}
         description: 
-      amount: 10
+      amount: 0
     - AllowedItems: 
       item:
         Name: 
-        Id: 1
+        Id: -1
         buffs: []
         uiDisplay: {fileID: 0}
         description: 
-      amount: 10
-    - AllowedItems: 
-      item:
-        Name: 
-        Id: 2
-        buffs: []
-        uiDisplay: {fileID: 0}
-        description: 
-      amount: 10
+      amount: 0
     - AllowedItems: 
       item:
         Name: 
@@ -127,7 +127,7 @@ MonoBehaviour:
         buffs: []
         uiDisplay: {fileID: 0}
         description: 
-      amount: 10
+      amount: 8
     - AllowedItems: 
       item:
         Name: 
@@ -135,15 +135,15 @@ MonoBehaviour:
         buffs: []
         uiDisplay: {fileID: 0}
         description: 
-      amount: 10
+      amount: 20
     - AllowedItems: 
       item:
         Name: 
-        Id: 5
+        Id: -1
         buffs: []
         uiDisplay: {fileID: 0}
         description: 
-      amount: 10
+      amount: 0
     - AllowedItems: 
       item:
         Name: 
@@ -151,7 +151,7 @@ MonoBehaviour:
         buffs: []
         uiDisplay: {fileID: 0}
         description: 
-      amount: 10
+      amount: 20
     - AllowedItems: 
       item:
         Name: 
@@ -159,7 +159,7 @@ MonoBehaviour:
         buffs: []
         uiDisplay: {fileID: 0}
         description: 
-      amount: 10
+      amount: 20
     - AllowedItems: 
       item:
         Name: 
@@ -167,7 +167,7 @@ MonoBehaviour:
         buffs: []
         uiDisplay: {fileID: 0}
         description: 
-      amount: 10
+      amount: 20
     - AllowedItems: 
       item:
         Name: 
@@ -175,4 +175,4 @@ MonoBehaviour:
         buffs: []
         uiDisplay: {fileID: 0}
         description: 
-      amount: 10
+      amount: 20

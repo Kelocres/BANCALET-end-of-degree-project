@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2594fbc8c3e1ae4d8b92d863ab7feb1, type: 3}
+  m_Name: Arbre_Vinya
+  m_EditorClassIdentifier: 
+  fases:
+  - finsDia: 5
+    spriteSenseCollita: {fileID: -1094980979447951448, guid: e1f8ae14ce62eb24d8f00dfbb41e7f7e, type: 3}
+    spriteAmbCollita: {fileID: 0}
+    maxCollita: 0
+  - finsDia: 10
+    spriteSenseCollita: {fileID: 1530792808654658288, guid: e1f8ae14ce62eb24d8f00dfbb41e7f7e, type: 3}
+    spriteAmbCollita: {fileID: 0}
+    maxCollita: 0
+  - finsDia: 15
+    spriteSenseCollita: {fileID: 4794274879201518652, guid: e1f8ae14ce62eb24d8f00dfbb41e7f7e, type: 3}
+    spriteAmbCollita: {fileID: 0}
+    maxCollita: 0
+  - finsDia: 20
+    spriteSenseCollita: {fileID: 6877323755936762184, guid: e1f8ae14ce62eb24d8f00dfbb41e7f7e, type: 3}
+    spriteAmbCollita: {fileID: 0}
+    maxCollita: 0
+  - finsDia: 35
+    spriteSenseCollita: {fileID: -3862470974913186295, guid: e1f8ae14ce62eb24d8f00dfbb41e7f7e, type: 3}
+    spriteAmbCollita: {fileID: 3300467673043744993, guid: e1f8ae14ce62eb24d8f00dfbb41e7f7e, type: 3}
+    maxCollita: 3
+  - finsDia: 60
+    spriteSenseCollita: {fileID: -4069062654960423172, guid: e1f8ae14ce62eb24d8f00dfbb41e7f7e, type: 3}
+    spriteAmbCollita: {fileID: 7717487124054286079, guid: e1f8ae14ce62eb24d8f00dfbb41e7f7e, type: 3}
+    maxCollita: 5
+  collita: {fileID: 11400000, guid: 6d237de6071508b49aa32669bea63dfa, type: 2}
+  aiguaNecessaria: 0
+  spriteMort: {fileID: -7417078386214086104, guid: e1f8ae14ce62eb24d8f00dfbb41e7f7e, type: 3}

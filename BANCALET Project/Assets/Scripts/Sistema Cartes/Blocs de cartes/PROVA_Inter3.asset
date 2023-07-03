@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aae98d592a71dec49ae4df90ab6277cc, type: 3}
+  m_Name: PROVA_Inter3
+  m_EditorClassIdentifier: 
+  type: 1
+  text: "est\xE0s a casa o qu\xE8?"
+  affection: -5
+  required_keys: []

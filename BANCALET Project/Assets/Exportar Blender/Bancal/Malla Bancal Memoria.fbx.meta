@@ -1,0 +1,277 @@
+fileFormatVersion: 2
+guid: 1ca62c3d33c0bcd409b76a9994618f78
+ModelImporter:
+  serializedVersion: 20200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_MurOest
+    second: {fileID: 2100000, guid: ddcaf9a1274b74349a7fd8370fb13d8f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_MurOestBaix
+    second: {fileID: 2100000, guid: b3532bdb4ef9b18499460d3847b5ba1b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_PortaCasa
+    second: {fileID: 2100000, guid: 2a9f2e639eeb612479ff20e614a7a1a5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_TerraBancal
+    second: {fileID: 2100000, guid: b679f93e1382cb84784fef96c02ecdf4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_TerraCami
+    second: {fileID: 2100000, guid: 1cfe8196a7df2ca46aa6b0934d9280bd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_TerraLaterals
+    second: {fileID: 2100000, guid: d391e6230f0a5a143a012b703332a47d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_TerraVerda
+    second: {fileID: 2100000, guid: 3d47aa0c53534ae4aad5ab891467a4b0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat_CasaGeneral
+    second: {fileID: 2100000, guid: 610cb11982ff20b44b9be26cdc8fe3f1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat_CasaInterior
+    second: {fileID: 2100000, guid: 41d31c059660f9749827added5636eb2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat_CasaNalla
+    second: {fileID: 2100000, guid: 9c2d96b5b2057bc4d93559b59641f5e5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat_CasaSol
+    second: {fileID: 2100000, guid: d5383a098faaa114caabc4074380a61b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat_CasaTecho
+    second: {fileID: 2100000, guid: 772188b56c6533440acb73fdd869536f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat_MurEst
+    second: {fileID: 2100000, guid: f2a9047ffe7917348a3391a2551d6367, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat_MurEstBaix
+    second: {fileID: 2100000, guid: 960fc14305a2ec5438581ee76bf53287, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat_Teula1
+    second: {fileID: 2100000, guid: d0c90878ba5e1ed45b9009486eca723a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat_Teula2
+    second: {fileID: 2100000, guid: f503257bd497f9b42a1de505bab6d3c7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat_Teula3
+    second: {fileID: 2100000, guid: 4c66d996c91dd4e43b029ed02fa592ac, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat_Teula4
+    second: {fileID: 2100000, guid: dfe7054c2a63b8e4a9078f4e8a16c481, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat_Teula5
+    second: {fileID: 2100000, guid: 771de93498ec13a4b81abe1ca2b55896, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat_Valla
+    second: {fileID: 2100000, guid: 988594e2962851c478764b2ea0c639cd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PortaBancal_Barrots
+    second: {fileID: 2100000, guid: 3190bd4e103030a4986bf5a29b312d37, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PortaBancal_Blocs
+    second: {fileID: 2100000, guid: 9d6411b7000336d43bc8d80f8f36a7db, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: CasaBancal_Interior
+    second: {fileID: 2800000, guid: b8e8710b7d047ee40add6b0418cf48bd, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: TexIni_Valla2
+    second: {fileID: 2800000, guid: cade8fb5396d6b2478f5705f42f38de4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Tex_CasaSol2
+    second: {fileID: 2800000, guid: 39c4fd740233d56438db010307919f3b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Tex_CasaTeules2_PROVA
+    second: {fileID: 2800000, guid: 37899f89afc3e4a46b7a50f6e77ad52b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Tex_CasaTeules2_PROVA_Alfa
+    second: {fileID: 2800000, guid: 55191012cf658964d890e2e0a70eb456, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Tex_MurEst
+    second: {fileID: 2800000, guid: b0b3b6bf0a6278a45831035edc0093d4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Tex_PortaCasa_Esquerra
+    second: {fileID: 2800000, guid: 2d3574896f0a0f34e972e3201ad1bc72, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Tex_TerraBancal
+    second: {fileID: 2800000, guid: adf41a140470904438f623de87b9f5ac, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Tex_Teula1
+    second: {fileID: 2800000, guid: 5307aa8db3b53a5448f7a2eda132971e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Tex_Teula2
+    second: {fileID: 2800000, guid: 74d96593bd4031b4a82b5fb74189280e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Tex_Teula3
+    second: {fileID: 2800000, guid: 8ddd29cf04a6a064e85a1f732aadaedf, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Tex_Teula4
+    second: {fileID: 2800000, guid: 2807c97b757100949b3324cb82f37648, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Tex_Teula5
+    second: {fileID: 2800000, guid: cb253632d8f253949981c645f047089c, type: 3}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

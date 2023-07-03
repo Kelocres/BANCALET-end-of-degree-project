@@ -84,6 +84,8 @@ public class SeguixJugador : MonoBehaviour
 
     public void ActivarCameraExplorar()
     {
-        controlaCamara.NouEnfoque(objectiuCamaraExplorar, posCamaraExplorar);
+        if (objectiuCamaraExplorar == null) Debug.Log("SeguixJugador ActivarCameraExplorar() objectiuCamaraExplorar == null");
+        else if (posCamaraExplorar == null) Debug.Log("SeguixJugador ActivarCameraExplorar() posCamaraExplorar == null");
+        else controlaCamara.NouEnfoque(objectiuCamaraExplorar, posCamaraExplorar);
     }
 }

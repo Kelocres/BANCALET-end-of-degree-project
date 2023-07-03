@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2594fbc8c3e1ae4d8b92d863ab7feb1, type: 3}
+  m_Name: Arbre_Olivera
+  m_EditorClassIdentifier: 
+  fases:
+  - finsDia: 3
+    spriteSenseCollita: {fileID: 7415167150492596888, guid: 4a0f39d1c89dad2408dc7cda589518ac, type: 3}
+    spriteAmbCollita: {fileID: 0}
+    maxCollita: 0
+  - finsDia: 7
+    spriteSenseCollita: {fileID: 2199996547067832923, guid: 4a0f39d1c89dad2408dc7cda589518ac, type: 3}
+    spriteAmbCollita: {fileID: 0}
+    maxCollita: 0
+  - finsDia: 14
+    spriteSenseCollita: {fileID: 5514776329884782782, guid: 4a0f39d1c89dad2408dc7cda589518ac, type: 3}
+    spriteAmbCollita: {fileID: 0}
+    maxCollita: 0
+  - finsDia: 20
+    spriteSenseCollita: {fileID: 2819569224851360195, guid: 4a0f39d1c89dad2408dc7cda589518ac, type: 3}
+    spriteAmbCollita: {fileID: 0}
+    maxCollita: 0
+  - finsDia: 40
+    spriteSenseCollita: {fileID: -1938990365047810602, guid: 4a0f39d1c89dad2408dc7cda589518ac, type: 3}
+    spriteAmbCollita: {fileID: 2284115208913237797, guid: 4a0f39d1c89dad2408dc7cda589518ac, type: 3}
+    maxCollita: 3
+  - finsDia: 60
+    spriteSenseCollita: {fileID: -6713562667032227091, guid: 4a0f39d1c89dad2408dc7cda589518ac, type: 3}
+    spriteAmbCollita: {fileID: -4962158013184372828, guid: 4a0f39d1c89dad2408dc7cda589518ac, type: 3}
+    maxCollita: 8
+  collita: {fileID: 11400000, guid: 6f3e95688c8401c429cbd97a45c369ce, type: 2}
+  aiguaNecessaria: 0
+  spriteMort: {fileID: 4024479566873031447, guid: 4a0f39d1c89dad2408dc7cda589518ac, type: 3}

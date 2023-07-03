@@ -1,0 +1,144 @@
+{
+    "liniesDialeg": [
+        {
+            "nom": "DETECTIU",
+            "idPersonatge": "AndreuDetectiu",
+            "anims": [
+                {
+                    "idPersonatge" : "AndreuDetectiu",
+                    "anim" : "interrogant"
+                }
+            ],
+            "textValencia" :
+                "Hum...",
+            "textCastellano" :
+                "Hum...",
+            "textEnglish" :
+                "Hum..."
+        },
+
+        {
+            "nom": "DETECTIU",
+            "idPersonatge": "AndreuDetectiu",
+            "anims": [
+                {
+                    "idPersonatge" : "AndreuDetectiu",
+                    "anim" : "interrogant"
+                }
+            ],
+            "textValencia" :
+                "Una ràpida comprovació del cadàver aclarirà algunes coses.",
+            "textCastellano" :
+                "Una rápida comprovación del cadáver aclarirá alguans cosas",
+            "textEnglish" :
+                "A quick check of the corpse may clarify a few things."
+        },
+        {
+            "nom": "DETECTIU",
+            "idPersonatge": "AndreuDetectiu",
+            "anims": [
+                {
+                    "idPersonatge" : "AndreuDetectiu",
+                    "anim" : "investigar"
+                }
+            ],
+            "textValencia" :
+                "...",
+            "textCastellano" :
+                "...",
+            "textEnglish" :
+                "..."
+        },
+        {
+            "nom": "DETECTIU",
+            "idPersonatge": "AndreuDetectiu",
+            "anims": [
+                {
+                    "idPersonatge" : "AndreuDetectiu",
+                    "anim" : "investigar"
+                }
+            ],
+            "textValencia" :
+                "La principal causa de mort sembla ser, amb molta seguritat, atravesament amb arma blanca.",
+            "textCastellano" :
+                "La principal causa de muerte parece ser, con mucha seguridad, ensartamiento con arma blanca.",
+            "textEnglish" :
+                "The main cause of death seems to be, pretty surely, someone stabbed him."
+        },
+        {
+            "nom": "DETECTIU",
+            "idPersonatge": "AndreuDetectiu",
+            "anims": [
+                {
+                    "idPersonatge" : "AndreuDetectiu",
+                    "anim" : "investigar"
+                }
+            ],
+            "textValencia" :
+                "La qual sembla ser l'espasa que continua clavada en el seu tòrax.",
+            "textCastellano" :
+                "La cual parece ser la espada que continúa clavada en su tórax.",
+            "textEnglish" :
+                "And it appears to be made with the sword that is yet stuck in his torax."
+        },
+        {
+            "nom": "DETECTIU",
+            "idPersonatge": "AndreuDetectiu",
+            "anims": [
+                {
+                    "idPersonatge" : "AndreuDetectiu",
+                    "anim" : "investigar"
+                }
+            ],
+            "textValencia" :
+                "Un arma molt anacrónica, cal dir. I molt gran. La persona homicida difícilment entraria amb ella sense cridar l'atenció.",
+            "textCastellano" :
+                "Un arma muy anacrónica, vale decir. Y muy grande. La persona homicida difícilmente entraría con ella sin llamar la atención.",
+            "textEnglish" :
+                "A very anachronic weapon, I must say. Very big too. The homicide person would hardly come in with it attracting no attention."
+        },
+        {
+            "nom": "DETECTIU",
+            "idPersonatge": "AndreuDetectiu",
+            "anims": [
+                {
+                    "idPersonatge" : "AndreuDetectiu",
+                    "anim" : "investigar"
+                }
+            ],
+            "textValencia" :
+                "O pot ser no la portaria damunt al entrar.",
+            "textCastellano" :
+                "O puede que no la llevaría encima al entrar",
+            "textEnglish" :
+                "Or maybe the person entered without it."
+        },
+        {
+            "nom": "DETECTIU",
+            "idPersonatge": "AndreuDetectiu",
+            "anims": [
+                {
+                    "idPersonatge" : "AndreuDetectiu",
+                    "anim" : "reflexionar"
+                }
+            ],
+            "textValencia" :
+                "Ara mateixa, sols els sospitosos podran donar-me respostes…",
+            "textCastellano" :
+                "Ahora mismo, sólo los sospechosos puedrán darme respuestas…",
+            "textEnglish" :
+                "In this moment, only the suspects can give me answers…"
+        }
+        
+
+    ],
+    "desicio":
+    {
+        "nom":"",
+        "idPersonatge":"",
+        "anims":[],
+        "textValencia":"",
+        "textCastellano":"",
+        "textEnglish":""
+    }
+}
