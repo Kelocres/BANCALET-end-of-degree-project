@@ -47,39 +47,7 @@ MonoBehaviour:
         buffs: []
         uiDisplay: {fileID: 0}
         description: 
-      amount: 10
-    - AllowedItems: 
-      item:
-        Name: 
-        Id: 15
-        buffs: []
-        uiDisplay: {fileID: 0}
-        description: 
-      amount: 10
-    - AllowedItems: 
-      item:
-        Name: 
-        Id: 16
-        buffs: []
-        uiDisplay: {fileID: 0}
-        description: 
-      amount: 10
-    - AllowedItems: 
-      item:
-        Name: 
-        Id: 17
-        buffs: []
-        uiDisplay: {fileID: 0}
-        description: 
-      amount: 10
-    - AllowedItems: 
-      item:
-        Name: 
-        Id: 18
-        buffs: []
-        uiDisplay: {fileID: 0}
-        description: 
-      amount: 10
+      amount: 20
     - AllowedItems: 
       item:
         Name: 
@@ -104,6 +72,38 @@ MonoBehaviour:
         uiDisplay: {fileID: 0}
         description: 
       amount: 0
+    - AllowedItems: 
+      item:
+        Name: 
+        Id: -1
+        buffs: []
+        uiDisplay: {fileID: 0}
+        description: 
+      amount: 0
+    - AllowedItems: 
+      item:
+        Name: 
+        Id: -1
+        buffs: []
+        uiDisplay: {fileID: 0}
+        description: 
+      amount: 0
+    - AllowedItems: 
+      item:
+        Name: 
+        Id: 0
+        buffs: []
+        uiDisplay: {fileID: 0}
+        description: 
+      amount: 19
+    - AllowedItems: 
+      item:
+        Name: 
+        Id: 2
+        buffs: []
+        uiDisplay: {fileID: 0}
+        description: 
+      amount: 14
     - AllowedItems: 
       item:
         Name: 
@@ -163,11 +163,11 @@ MonoBehaviour:
     - AllowedItems: 
       item:
         Name: 
-        Id: 8
+        Id: -1
         buffs: []
         uiDisplay: {fileID: 0}
         description: 
-      amount: 20
+      amount: 0
     - AllowedItems: 
       item:
         Name: 

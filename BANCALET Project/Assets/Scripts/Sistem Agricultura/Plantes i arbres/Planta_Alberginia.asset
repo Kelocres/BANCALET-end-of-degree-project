@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2594fbc8c3e1ae4d8b92d863ab7feb1, type: 3}
+  m_Name: Planta_Alberginia
+  m_EditorClassIdentifier: 
+  fases:
+  - finsDia: 3
+    spriteSenseCollita: {fileID: 454036861287180701, guid: 340fa24e1d3f5b44380a0a46cf88266f, type: 3}
+    spriteAmbCollita: {fileID: 0}
+    maxCollita: 0
+  - finsDia: 6
+    spriteSenseCollita: {fileID: 971471975523994675, guid: 340fa24e1d3f5b44380a0a46cf88266f, type: 3}
+    spriteAmbCollita: {fileID: 0}
+    maxCollita: 0
+  - finsDia: 10
+    spriteSenseCollita: {fileID: 8707594814974455705, guid: 340fa24e1d3f5b44380a0a46cf88266f, type: 3}
+    spriteAmbCollita: {fileID: -5674144599292676123, guid: 340fa24e1d3f5b44380a0a46cf88266f, type: 3}
+    maxCollita: 2
+  - finsDia: 15
+    spriteSenseCollita: {fileID: 8707594814974455705, guid: 340fa24e1d3f5b44380a0a46cf88266f, type: 3}
+    spriteAmbCollita: {fileID: 3005480966495136507, guid: 340fa24e1d3f5b44380a0a46cf88266f, type: 3}
+    maxCollita: 4
+  collita: {fileID: 11400000, guid: 1218f4786a1e6c049b8efb01855b3387, type: 2}
+  aiguaNecessaria: 0
+  spriteMort: {fileID: 1061938956344994480, guid: 340fa24e1d3f5b44380a0a46cf88266f, type: 3}

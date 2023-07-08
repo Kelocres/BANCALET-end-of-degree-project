@@ -24,4 +24,6 @@ MonoBehaviour:
     uiDisplay: {fileID: 0}
     description: 
   actionConsumption: 1
-  planta: {fileID: 11400000, guid: 50c516add1902724c989b5f09224a6b3, type: 2}
+  accioAnim: defecte
+  planta: {fileID: 11400000, guid: ecf2522b2484f3648ba703ff31ec2df3, type: 2}
+  plantaTex: {fileID: 0}

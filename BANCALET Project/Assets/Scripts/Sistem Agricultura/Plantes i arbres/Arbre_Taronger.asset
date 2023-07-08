@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2594fbc8c3e1ae4d8b92d863ab7feb1, type: 3}
   m_Name: Arbre_Taronger
   m_EditorClassIdentifier: 
+  tamanyPlanta: 1
   fases:
   - finsDia: 5
     spriteSenseCollita: {fileID: 2110989107626907503, guid: 64fd6e71b177f5940bdcea4c85cdb78e, type: 3}

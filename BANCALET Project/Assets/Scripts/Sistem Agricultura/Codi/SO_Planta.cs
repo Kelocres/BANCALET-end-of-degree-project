@@ -5,6 +5,9 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "Nova planta", menuName = "Planta de cultiu")]
 public class SO_Planta : ScriptableObject
 {
+    //Es modificarà el tamany en PlantaScript (arbres = 1f, plantes = 0.7f)
+    public float tamanyPlanta = 0.7f;
+
     public FasePlanta[] fases;
     //public SO_Item collita;
     public SO_HarvestItem collita;

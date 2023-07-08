@@ -63,7 +63,7 @@ public class PlantaScript : MonoBehaviour
         spritePlanta.sprite = faseActual.spriteSenseCollita;
         diaDeMort = tipusPlanta.fases[tipusPlanta.fases.Length - 1].finsDia;
         arruixada = false;
-
+        spritePlanta.transform.localScale = new Vector3(tipusPlanta.tamanyPlanta, tipusPlanta.tamanyPlanta, tipusPlanta.tamanyPlanta);
 
     }
 
