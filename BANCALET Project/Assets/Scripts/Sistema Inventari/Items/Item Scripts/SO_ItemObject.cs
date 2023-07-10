@@ -19,17 +19,6 @@ public enum ItemType
     Default
 }
 
-//Atributs que poden diferenciar objectes que son el mateix tipus però amb
-//diferencies
-//Açò es dels tutorials i no es necessari, però ho guardaré de moment
-public enum Attribute //Tutorial 3
-{
-    Agility,
-    Intellect,
-    Stamina,
-    Strength
-}
-
 //La classe serà abstracta, perque no será la que utilitzarem per a crear
 //els items, sino la base.
 //Les classes que heredaran seran, per exemple: FoodItem, WeaponItem, etc...
@@ -80,7 +69,6 @@ public class Item
 {
     public string Name;
     public int Id = -1;
-    public ItemBuff[] buffs;
 
     //El uiDisplay es necessari per a SlotObject, però pot ser que siga innecessari
     public Sprite uiDisplay;
@@ -101,41 +89,6 @@ public class Item
         uiDisplay = item.uiDisplay;
         description = item.description;
         
-        buffs = new ItemBuff[item.data.buffs.Length];
-        for(int i=0; i < buffs.Length; i++)
-        {
-            //buffs[i] = new B_ItemBuff(item.buffs[i].min, item.buffs[i].max)
-            //buffs[i].attribute = item.buffs[i].attribute;
-
-            buffs[i] = new ItemBuff(item.data.buffs[i].min, item.data.buffs[i].max)
-            {
-                attribute = item.data.buffs[i].attribute
-            };
-
-            
-        }
     }
 }
 
-//Classe per a mantindre els atributs dels items
-[System.Serializable]
-public class ItemBuff // Tutorial 3
-{
-    public B_Attribute attribute;
-    public int value;
-    public int min;
-    public int max;
-    public ItemBuff(int _min, int _max)
-    {
-        min = _min;
-        max = _max;
-        GenerateValue();
-    }
-
-    //Funció per a regenerar un nou valor (entre els valors min i max)
-    public void GenerateValue()
-    {
-        value = UnityEngine.Random.Range(min, max);
-    }
-
-}

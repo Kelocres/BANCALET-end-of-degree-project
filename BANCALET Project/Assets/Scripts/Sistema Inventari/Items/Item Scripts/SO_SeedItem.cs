@@ -8,7 +8,6 @@ public class SO_SeedItem : SO_ItemObject
 {
     // Start is called before the first frame update
     public SO_Planta planta;
-    public SO_PlantaTex plantaTex;
     private void Awake()
     {
         //type = ItemType.Defecte;

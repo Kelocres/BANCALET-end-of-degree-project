@@ -9,7 +9,6 @@ public class ManejaPlantes : MonoBehaviour
     private LightingManager lightingManager;
 
     public List<PlantaScript> plantes;
-    public List<PlantaTexScript> plantesTex;
 
     //El gameobject que s'utilitzarà per a crear una nova planta
     public static GameObject gameObjectPlanta;
@@ -29,7 +28,6 @@ public class ManejaPlantes : MonoBehaviour
         }
 
         plantes = new List<PlantaScript>();
-        plantesTex = new List<PlantaTexScript>();
         lightingManager = FindObjectOfType<LightingManager>();
         if(lightingManager!=null)
         {
@@ -55,22 +53,12 @@ public class ManejaPlantes : MonoBehaviour
 
 
     }
-    public void NovaPlanta(PlantaTexScript novaPlanta)
-    {
-        novaPlanta.horaPlantacio = (int)lightingManager.GetTimeOfDay();
-        plantesTex.Add(novaPlanta);
-
-
-    }
 
     public void EliminarPlanta(PlantaScript plantaPerEliminar)
     {
         plantes.Remove(plantaPerEliminar);
     }
-    public void EliminarPlanta(PlantaTexScript plantaPerEliminar)
-    {
-        plantesTex.Remove(plantaPerEliminar);
-    }
+
     /*
     public void NouDia()
     {
@@ -103,10 +91,6 @@ public class ManejaPlantes : MonoBehaviour
             EventHora(i % 24);
         }*/
         foreach (PlantaScript planta in plantes)
-        {
-            planta.NouDia();
-        }
-        foreach(PlantaTexScript planta in plantesTex)
         {
             planta.NouDia();
         }
