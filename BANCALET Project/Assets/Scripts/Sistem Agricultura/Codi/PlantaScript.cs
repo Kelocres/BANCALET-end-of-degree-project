@@ -20,7 +20,7 @@ public class PlantaScript : MonoBehaviour
 
     //Delegate per a comunicar a TerraPlantable que ha de secarse
     public delegate void delTerra();
-    public event delTerra dSecar;
+    //public event delTerra dSecar;
     //Delegate per a comunicar a TerraPlantable que està lliure
     public event delTerra dArrancar;
 
@@ -100,8 +100,8 @@ public class PlantaScript : MonoBehaviour
         {
             diesDeProgres++;
             arruixada = false;
-            if (dSecar != null)
-                dSecar();
+        //    if (dSecar != null)
+        //        dSecar();
         }
 
         Debug.Log("PlantaScript NouDia() Dies de vida: "+diesDeVida+", dia de Mort: "+diaDeMort);        

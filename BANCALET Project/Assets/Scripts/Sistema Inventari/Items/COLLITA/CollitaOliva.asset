@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d622efcefebc9ae4ab2cecfbdd08dba9, type: 3}
+  m_Name: CollitaOliva
+  m_EditorClassIdentifier: 
+  uiDisplay: {fileID: -7394611123096392046, guid: 0531fbe9b80724d4eb41c57d0cde2f21, type: 3}
+  stackable: 1
+  type: 1
+  description: "Collita de la olivera. \nTe la pots menjar per a recuperar 5 punts
+    d'Alimentaci\xF3 o extraure la llavor des de l'Inventari."
+  data:
+    Name: Oliva
+    Id: 3
+    uiDisplay: {fileID: -7394611123096392046, guid: 0531fbe9b80724d4eb41c57d0cde2f21, type: 3}
+    description: 
+  actionConsumption: 1
+  accioAnim: defecte
+  costVenta: 0
+  quanti_Alimentar: 5
+  seed: {fileID: 11400000, guid: f2766efc5d7c3f74495f7fa6b1f240c0, type: 2}

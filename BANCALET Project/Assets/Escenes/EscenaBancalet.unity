@@ -15,12 +15,12 @@ RenderSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 9
   m_Fog: 0
-  m_FogColor: {r: 0.8774539, g: 0.9548274, b: 0.339676, a: 1}
+  m_FogColor: {r: 0.6727318, g: 0.53522456, b: 0.25457978, a: 1}
   m_FogMode: 3
   m_FogDensity: 0.01
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
-  m_AmbientSkyColor: {r: 0.7945828, g: 0.74477226, b: 0.60572445, a: 1}
+  m_AmbientSkyColor: {r: 0.7818957, g: 0.7046431, b: 0.5277909, a: 1}
   m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
   m_AmbientIntensity: 1
@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.4501047, g: 0.5001486, b: 0.5754588, a: 1}
+  m_IndirectSpecularColor: {r: 0.44869965, g: 0.49506915, b: 0.55587137, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -3634,7 +3634,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   plantes: []
-  plantesTex: []
+  casellesTerra: []
   _gameObjecPlanta: {fileID: 7833374665575304172, guid: afb8b529d7a35584ea5df06e069af007, type: 3}
 --- !u!114 &270857371
 MonoBehaviour:
@@ -6085,7 +6085,6 @@ MonoBehaviour:
     item:
       Name: 
       Id: -1
-      buffs: []
       uiDisplay: {fileID: 0}
       description: 
     amount: 0
@@ -10484,7 +10483,7 @@ Light:
   serializedVersion: 10
   m_Type: 1
   m_Shape: 0
-  m_Color: {r: 0.744454, g: 0.744454, b: 0.744454, a: 1}
+  m_Color: {r: 0.55171853, g: 0.55171853, b: 0.55171853, a: 1}
   m_Intensity: 1
   m_Range: 10
   m_SpotAngle: 30
@@ -10542,7 +10541,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 944117263}
-  m_LocalRotation: {x: 0.08230133, y: 0.32783008, z: -0.9407079, w: 0.028681437}
+  m_LocalRotation: {x: 0.014134085, y: 0.98300785, z: -0.16155322, w: 0.086002104}
   m_LocalPosition: {x: 0, y: 3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -12265,7 +12264,6 @@ MonoBehaviour:
     item:
       Name: 
       Id: -1
-      buffs: []
       uiDisplay: {fileID: 0}
       description: 
     amount: 0
@@ -19906,14 +19904,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DirectionalLight: {fileID: 944117264}
   Preset: {fileID: 11400000, guid: dfed2eae846447848a2613a921319672, type: 2}
-  TimeOfDay: 15.438254
+  TimeOfDay: 7.2443852
   SECONDS_PER_GAMEHOUR: 10
   dataTimeOfDay: {fileID: 11400000, guid: 3b8c6db63fe5b404c924b4dc704b700e, type: 2}
   WAKING_HOUR: 6
   WAKING_AFTER_FAINT_HOUR: 12
-  getAmbientColor: {r: 0.7945828, g: 0.74477226, b: 0.60572445, a: 1}
-  getFogColor: {r: 0.8774539, g: 0.9548274, b: 0.339676, a: 1}
-  getDirectionalLightColor: {r: 0.744454, g: 0.744454, b: 0.744454, a: 1}
+  getAmbientColor: {r: 0.7818957, g: 0.7046431, b: 0.5277909, a: 1}
+  getFogColor: {r: 0.6727318, g: 0.53522456, b: 0.25457978, a: 1}
+  getDirectionalLightColor: {r: 0.55171853, g: 0.55171853, b: 0.55171853, a: 1}
 --- !u!4 &1869182364
 Transform:
   m_ObjectHideFlags: 0

@@ -21,7 +21,8 @@ public class SO_SeedItem : SO_ItemObject
     public override bool CheckObjective(GameObject obj, PJ_StateManager pj)
     {
         // Si l'objecte es TerraPlantable, es pot interatuar
-        return obj.GetComponent<TerraPlantable>();
+        TerraPlantable terra = obj.GetComponent<TerraPlantable>();
+        return terra != null && terra.treballat;
         //return base.CheckObjective(obj);
     }
 

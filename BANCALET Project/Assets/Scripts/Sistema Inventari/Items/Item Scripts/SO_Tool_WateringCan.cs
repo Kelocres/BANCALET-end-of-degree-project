@@ -10,7 +10,8 @@ public class SO_Tool_WateringCan : SO_ToolItem
     protected override bool CheckToolObjective(GameObject obj)
     {
         // Si l'objecte es TerraPlantable, es pot interatuar
-        return obj.GetComponent<TerraPlantable>();
+        TerraPlantable terra = obj.GetComponent<TerraPlantable>();
+        return terra!=null && terra.treballat;
         //return base.CheckObjective(obj);
     }
 

@@ -10,17 +10,22 @@ public class TerraPlantable : MonoBehaviour
     private PlantaScript planta;
 
     //Image de la textura de la terra (per a senyalar que està arruixada, seca, etc)
-    private SpriteRenderer spriteTerra;
-    public Sprite spriteTerraSeca;
-    public Sprite spriteTerraArruixada;
+    //private SpriteRenderer spriteTerra;
+    //public Sprite spriteTerraSeca;
+    //public Sprite spriteTerraArruixada;
 
     private Renderer rendTerra;
-    public Material matTerraSeca;
+    public Material matTerraNoTreballada;
+    public Material matTerraTreballada;
     public Material matTerraArruixada;
 
 
+
     //public bool plantat;
+    public bool treballat;
     public bool arruixat;
+    private int contadorDies = 0;
+
 
     void Start()
     {
@@ -30,28 +35,52 @@ public class TerraPlantable : MonoBehaviour
 
         rendTerra = GetComponentInChildren<Renderer>();
         if (rendTerra != null)
-            rendTerra.material = matTerraSeca;
+            rendTerra.material = matTerraNoTreballada;
 
         posCultiu = transform.GetChild(0).transform;
         //plantat = false;
         arruixat = false;
+        treballat = false;
     }
 
     // Update is called once per frame
     public void NouDia()
     {
-        //La terra es seca
-        arruixat = false;
-        //if (spriteTerraSeca != null)
-        //    spriteTerra.sprite = spriteTerraSeca;
+        if (!treballat) return;
+
+        if (arruixat || planta!=null)
+        {
+            contadorDies = 0;
+            if (planta != null)
+            {
+                planta.NouDia();
+                
+            }
+            arruixat = false;
+        }
+        else
+        {
+            contadorDies++;
+            if (contadorDies >= 3)
+            {
+                treballat = false;
+                if (rendTerra != null)
+                    rendTerra.material = matTerraNoTreballada;
+                return;
+            }
+        }
         if (rendTerra != null)
-            rendTerra.material = matTerraSeca;
+            rendTerra.material = matTerraTreballada;
     }
 
     //public void PlantarEnTerra(GameObject objectePlanta, SO_ItemLlavor llavor)
     public void PlantarEnTerra(GameObject objectePlanta, SO_SeedItem llavor)
     {
         Debug.Log("TerraPlantable PlantarEnTerra()");
+        if (!treballat)
+        {
+            return;
+        }
         //Com el objecte TerraPlantable de prova està escalat, si instanciem la planta
         //en el transform del fill acabarà deformada
         //GameObject plantacio = Instantiate(objectePlanta, posCultiu);
@@ -60,7 +89,7 @@ public class TerraPlantable : MonoBehaviour
 
         planta = plantacio.GetComponent<PlantaScript>();
         planta.Plantar(llavor);
-        planta.dSecar += SecarTerra;
+        //planta.dSecar += SecarTerra;
         planta.dArrancar += PlantaArrancada;
 
 
@@ -82,7 +111,7 @@ public class TerraPlantable : MonoBehaviour
     public void Arruixar()
     {
         //Si ja estava arruixat, no cal fer res
-        if (!arruixat)
+        if (treballat && !arruixat)
         {
             arruixat = true;
 
@@ -97,6 +126,24 @@ public class TerraPlantable : MonoBehaviour
         }
     }
 
+    public void Treballar()
+    {
+        //Si ja estava arruixat, no cal fer res
+        if (!treballat)
+        {
+            treballat = true;
+
+            //Canviar l'apariència de terra seca a arruixada
+            //if(spriteTerraArruixada!=null)
+            //    spriteTerra.sprite = spriteTerraArruixada;
+            if (rendTerra != null)
+                rendTerra.material = matTerraTreballada;
+            //Comunicar a la planta que està arruixada
+            //if (planta != null)
+            //    planta.Arruixar();
+        }
+    }
+
     public void SecarTerra()
     {
         arruixat = false;
@@ -105,7 +152,7 @@ public class TerraPlantable : MonoBehaviour
         //if (spriteTerraSeca != null)
         //    spriteTerra.sprite = spriteTerraSeca;
         if (rendTerra != null)
-            rendTerra.material = matTerraSeca;
+            rendTerra.material = matTerraTreballada;
     }
 
     public void PlantaArrancada()

@@ -9,6 +9,7 @@ public class ManejaPlantes : MonoBehaviour
     private LightingManager lightingManager;
 
     public List<PlantaScript> plantes;
+    public TerraPlantable[] casellesTerra;
 
     //El gameobject que s'utilitzarà per a crear una nova planta
     public static GameObject gameObjectPlanta;
@@ -37,6 +38,7 @@ public class ManejaPlantes : MonoBehaviour
         }
 
         gameObjectPlanta = _gameObjecPlanta;
+        casellesTerra = FindObjectsOfType<TerraPlantable>();
     }
 
     //Per arreplegar el gameObject
@@ -90,10 +92,15 @@ public class ManejaPlantes : MonoBehaviour
             Debug.Log("ManejaPlantes CreixerDeNit() cridar a EventHora(" + i % 24 + ")");
             EventHora(i % 24);
         }*/
-        foreach (PlantaScript planta in plantes)
+        /*foreach (PlantaScript planta in plantes)
         {
             planta.NouDia();
+        }*/
+        foreach (TerraPlantable casella in casellesTerra)
+        {
+            casella.NouDia();
         }
+
 
     }
 

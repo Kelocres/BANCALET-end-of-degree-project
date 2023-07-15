@@ -145,10 +145,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8971e8ade4c1cc49b5147321fe1e3d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spriteTerraSeca: {fileID: 21300000, guid: b456b250f9950b542a5fb6723f3c30b1, type: 3}
-  spriteTerraArruixada: {fileID: 21300000, guid: 9e9a51013d8eefd42be10d476b680312, type: 3}
-  matTerraSeca: {fileID: 2100000, guid: 15e573d1c15a51c42ae83556303e3dcd, type: 2}
+  matTerraNoTreballada: {fileID: 2100000, guid: 991b453b7549a8a49ae134e33e11bde3, type: 2}
+  matTerraTreballada: {fileID: 2100000, guid: 15e573d1c15a51c42ae83556303e3dcd, type: 2}
   matTerraArruixada: {fileID: 2100000, guid: 42396ae478afee749aca280cfe7c61e4, type: 2}
+  treballat: 0
   arruixat: 0
 --- !u!114 &1332895291
 MonoBehaviour:

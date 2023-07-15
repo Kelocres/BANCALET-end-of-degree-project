@@ -19,8 +19,9 @@ public class SO_ItemDatabaseObject : ScriptableObject, ISerializationCallbackRec
     {
         for (int i = 0; i < Items.Length; i++)
         {
-            
-            if(Items[i].data.Id != i) //Tutorial 7 h 1 minut 3
+            Debug.Log("SO_ItemDatabaseObject UpdateID() i=" + i + "; ");
+            Debug.Log("SO_ItemDatabaseObject UpdateID() Items[i].data.Id=" + Items[i].data.Id);
+            if (Items[i].data.Id != i) //Tutorial 7 h 1 minut 3
                 Items[i].data.Id = i; //Tutorial 7
             
 
