@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b4f3eb5a6339786458d86ec37755d807, type: 3}
-  m_Name: PROVA_BarraItems
+  m_Name: BarraItems
   m_EditorClassIdentifier: 
   savePath: /prova_barraitems.save
   database: {fileID: 11400000, guid: 101db0b2cf8b45645bec5206e92c152d, type: 2}
@@ -20,7 +20,6 @@ MonoBehaviour:
       item:
         Name: Ferramenta
         Id: 10
-        buffs: []
         uiDisplay: {fileID: 0}
         description: 
       amount: 1
@@ -28,7 +27,20 @@ MonoBehaviour:
       item:
         Name: Arruixadora
         Id: 11
-        buffs: []
+        uiDisplay: {fileID: 0}
+        description: 
+      amount: 1
+    - AllowedItems: 
+      item:
+        Name: 
+        Id: 9
+        uiDisplay: {fileID: 0}
+        description: 
+      amount: 1
+    - AllowedItems: 
+      item:
+        Name: 
+        Id: 12
         uiDisplay: {fileID: 0}
         description: 
       amount: 1
@@ -36,7 +48,20 @@ MonoBehaviour:
       item:
         Name: 
         Id: -1
-        buffs: []
+        uiDisplay: {fileID: 0}
+        description: 
+      amount: 0
+    - AllowedItems: 
+      item:
+        Name: 
+        Id: 9
+        uiDisplay: {fileID: 0}
+        description: 
+      amount: 20
+    - AllowedItems: 
+      item:
+        Name: 
+        Id: -1
         uiDisplay: {fileID: 0}
         description: 
       amount: 0
@@ -44,7 +69,6 @@ MonoBehaviour:
       item:
         Name: 
         Id: -1
-        buffs: []
         uiDisplay: {fileID: 0}
         description: 
       amount: 0
@@ -52,7 +76,6 @@ MonoBehaviour:
       item:
         Name: 
         Id: -1
-        buffs: []
         uiDisplay: {fileID: 0}
         description: 
       amount: 0
@@ -60,39 +83,6 @@ MonoBehaviour:
       item:
         Name: 
         Id: -1
-        buffs: []
-        uiDisplay: {fileID: 0}
-        description: 
-      amount: 0
-    - AllowedItems: 
-      item:
-        Name: 
-        Id: -1
-        buffs: []
-        uiDisplay: {fileID: 0}
-        description: 
-      amount: 0
-    - AllowedItems: 
-      item:
-        Name: 
-        Id: -1
-        buffs: []
-        uiDisplay: {fileID: 0}
-        description: 
-      amount: 0
-    - AllowedItems: 
-      item:
-        Name: 
-        Id: -1
-        buffs: []
-        uiDisplay: {fileID: 0}
-        description: 
-      amount: 0
-    - AllowedItems: 
-      item:
-        Name: 
-        Id: -1
-        buffs: []
         uiDisplay: {fileID: 0}
         description: 
       amount: 0

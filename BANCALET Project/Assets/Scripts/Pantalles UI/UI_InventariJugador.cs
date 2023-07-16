@@ -17,8 +17,9 @@ public class UI_InventariJugador : UI_Menu
     public TextMeshProUGUI itemDescripcio;
 
     //Delegate per a que la barra d'items sàpiga que està habilitat o deshabilitat
-    public delegate void delSignal(bool intro);
-    public event delSignal delIsActive;
+    //ARA ES GUARDA EN UI_MENU PER A QUE SIGA ACTIVABLE EN ALTRES MENÚS
+    //public delegate void delSignal(bool intro);
+    //public event delSignal delIsActive;
 
     void Start()
     {
@@ -32,11 +33,12 @@ public class UI_InventariJugador : UI_Menu
         SelectedSlot(null);
 
         //Busca al codi de la barra d'items per a que inserte el delegate
-        FindObjectOfType<ItemsBarScript>().SetMenuInventari(this);
-        if (delIsActive != null) delIsActive(true);
+        //FindObjectOfType<ItemsBarScript>().SetMenuInventari(this);
+        //if (delIsActive != null) delIsActive(true);
+        AllowItemsBarControl();
     }
 
-    private void OnEnable()
+    /*private void OnEnable()
     {
         if (delIsActive != null) delIsActive(true);
     }
@@ -44,7 +46,7 @@ public class UI_InventariJugador : UI_Menu
     private void OnDisable()
     {
         if (delIsActive != null) delIsActive(false);
-    }
+    }*/
 
     // Update is called once per frame
     public void SelectedSlot(InventorySlot selectedSlot)

@@ -124,9 +124,13 @@ public class ItemsBarScript : MonoBehaviour
         return true;
     }
 
-    public void SetMenuInventari(UI_InventariJugador inventari)
+    /*public void SetMenuInventari(UI_InventariJugador inventari)
     {
         inventari.delIsActive += PermissosEvents;
+    }*/
+    public void SetMenuInventari(UI_Menu menu)
+    {
+        menu.delIsActive += PermissosEvents;
     }
 
     public void PermissosEvents(bool _inventariActivat)

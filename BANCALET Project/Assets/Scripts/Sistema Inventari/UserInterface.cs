@@ -43,6 +43,11 @@ public abstract class UserInteface : MonoBehaviour
         // (es necessari per a canviar-ho de inventari)
         for(int i=0; i<inventory.Container.Items.Length; i++)
         {
+            if (inventory == null) Debug.Log("UserInterface Start() inventory == null");
+            else if (inventory.Container == null) Debug.Log("UserInterface Start() inventory.Container == null");
+            else if (inventory.Container.Items == null) Debug.Log("UserInterface Start() inventory.Container.Items == null");
+            else if (inventory.Container.Items[i] == null) Debug.Log("UserInterface Start() inventory.Container.Items["+i+"] == null");
+            else if (inventory.Container.Items[i].parent == null) Debug.Log("UserInterface Start() inventory.Container.Items[" + i + "].parent == null");
             inventory.Container.Items[i].parent = this;
         }
 

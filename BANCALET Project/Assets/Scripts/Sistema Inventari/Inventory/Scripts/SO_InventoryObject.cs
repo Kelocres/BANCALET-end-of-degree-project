@@ -150,12 +150,37 @@ public class SO_InventoryObject : ScriptableObject
         Container.Clear(); // Tutorial 6
     }
 
-    
+    public void ClearAndResize(int newLength)
+    {
+        if(newLength <= 0)
+        {
+            Debug.Log("SO_InventoryObject ClearAndResize() newLength <= 0");
+            return;
+        }
+        Container.Items = new InventorySlot[newLength];
+        for(int i=0; i<Container.Items.Length; i++)
+        {
+            Container.Items[i] = new InventorySlot();
+        }
+        
+    }
 
     // Tutorial 7, fa la mateixa funció que MoveItem
     public void SwapItems(InventorySlot item1, InventorySlot item2)
     {
-        if (item2.CanPlaceInSlot(item1.ItemObject) && item1.CanPlaceInSlot(item2.ItemObject))
+        if(item1 == item2)
+        {
+            Debug.Log("SO_InventoryObject Es el mateix objecte");
+        }
+
+        else if(item1.item.Id == item2.item.Id && database.Items[item1.item.Id].stackable)
+        {
+            Debug.Log("SO_InventoryObject SwapItems() Apilar " + item1.amount + " + " + item2.amount);
+            item2.AddAmount(item1.amount);
+            item1.RemoveItem();
+        }
+
+        else if (item2.CanPlaceInSlot(item1.ItemObject) && item1.CanPlaceInSlot(item2.ItemObject))
         { 
         InventorySlot temp = new InventorySlot(item2.item, item2.amount);
         item2.UpdateSlot(item1.item, item1.amount);

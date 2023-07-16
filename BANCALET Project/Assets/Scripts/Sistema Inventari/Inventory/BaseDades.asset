@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9c8519ee70674ed4c8682be4fa627e1c, type: 3}
-  m_Name: PROVA_BaseDades
+  m_Name: BaseDades
   m_EditorClassIdentifier: 
   Items:
   - {fileID: 11400000, guid: 1218f4786a1e6c049b8efb01855b3387, type: 2}

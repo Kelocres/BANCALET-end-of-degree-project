@@ -32,12 +32,34 @@ public class UI_Menu : MonoBehaviour
     //El valor actual que obri (o no) un dels AlternativeElementGroup;
     public string currentWordKey;
 
+    //Delegate per a que la barra d'items sàpiga que està habilitat o deshabilitat
+    public delegate void delSignal(bool intro);
+    public event delSignal delIsActive;
+    
 
     // Start is called before the first frame update
     void Start()
     {
         currentWordKey = "";
         SetButtons();
+
+    }
+
+    //Ho cridarà cada menú que necessite controlar la barra d'items (UI_InventariJugador, UI_MenuObjectius)
+    public void AllowItemsBarControl()
+    {
+        FindObjectOfType<ItemsBarScript>().SetMenuInventari(this);
+        if (delIsActive != null) delIsActive(true);
+    }
+
+    private void OnEnable()
+    {
+        if (delIsActive != null) delIsActive(true);
+    }
+
+    private void OnDisable()
+    {
+        if (delIsActive != null) delIsActive(false);
     }
 
     // Update is called once per frame

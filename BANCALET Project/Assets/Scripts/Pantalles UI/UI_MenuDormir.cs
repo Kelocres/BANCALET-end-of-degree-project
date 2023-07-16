@@ -29,6 +29,7 @@ public class UI_MenuDormir : UI_Menu
         }
     }
 
+    //Esta funció estarà en UI_MenuObjectius
     public void Sleep()
     {
         //Debug.Log("UI_MenuDormir Sleep()");
