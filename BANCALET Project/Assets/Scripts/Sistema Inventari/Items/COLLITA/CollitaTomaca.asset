@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d622efcefebc9ae4ab2cecfbdd08dba9, type: 3}
   m_Name: CollitaTomaca
   m_EditorClassIdentifier: 
-  uiDisplay: {fileID: 21300000, guid: 4b345f2530823f14ca408ec108388c57, type: 3}
+  uiDisplay: {fileID: -2721787781963948271, guid: 0531fbe9b80724d4eb41c57d0cde2f21, type: 3}
   stackable: 1
   type: 1
   description: "Collita de la tomaquera. \nTe la pots menjar per a recuperar 15 punts
