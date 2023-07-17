@@ -19,101 +19,52 @@ MonoBehaviour:
     - AllowedItems: 
       item:
         Name: 
-        Id: -1
+        Id: 13
         uiDisplay: {fileID: 0}
         description: 
-      amount: 0
+      amount: 3
     - AllowedItems: 
       item:
         Name: 
-        Id: -1
+        Id: 14
         uiDisplay: {fileID: 0}
         description: 
-      amount: 0
+      amount: 3
     - AllowedItems: 
       item:
         Name: 
-        Id: -1
+        Id: 15
         uiDisplay: {fileID: 0}
         description: 
-      amount: 0
+      amount: 3
     - AllowedItems: 
       item:
         Name: 
-        Id: -1
+        Id: 16
         uiDisplay: {fileID: 0}
         description: 
-      amount: 0
+      amount: 3
     - AllowedItems: 
       item:
         Name: 
-        Id: -1
+        Id: 17
         uiDisplay: {fileID: 0}
         description: 
-      amount: 0
+      amount: 3
     - AllowedItems: 
       item:
         Name: 
-        Id: 2
+        Id: 18
         uiDisplay: {fileID: 0}
         description: 
-      amount: 12
+      amount: 3
     - AllowedItems: 
       item:
         Name: 
-        Id: -1
+        Id: 19
         uiDisplay: {fileID: 0}
         description: 
-      amount: 0
-    - AllowedItems: 
-      item:
-        Name: 
-        Id: -1
-        uiDisplay: {fileID: 0}
-        description: 
-      amount: 0
-    - AllowedItems: 
-      item:
-        Name: 
-        Id: -1
-        uiDisplay: {fileID: 0}
-        description: 
-      amount: 0
-    - AllowedItems: 
-      item:
-        Name: 
-        Id: -1
-        uiDisplay: {fileID: 0}
-        description: 
-      amount: 0
-    - AllowedItems: 
-      item:
-        Name: 
-        Id: -1
-        uiDisplay: {fileID: 0}
-        description: 
-      amount: 0
-    - AllowedItems: 
-      item:
-        Name: 
-        Id: -1
-        uiDisplay: {fileID: 0}
-        description: 
-      amount: 0
-    - AllowedItems: 
-      item:
-        Name: 
-        Id: 6
-        uiDisplay: {fileID: 0}
-        description: 
-      amount: 32
-    - AllowedItems: 
-      item:
-        Name: 
-        Id: -1
-        uiDisplay: {fileID: 0}
-        description: 
-      amount: 8
+      amount: 3
     - AllowedItems: 
       item:
         Name: 
@@ -156,3 +107,52 @@ MonoBehaviour:
         uiDisplay: {fileID: 0}
         description: 
       amount: 0
+    - AllowedItems: 
+      item:
+        Name: 
+        Id: -1
+        uiDisplay: {fileID: 0}
+        description: 
+      amount: 0
+    - AllowedItems: 
+      item:
+        Name: 
+        Id: -1
+        uiDisplay: {fileID: 0}
+        description: 
+      amount: 0
+    - AllowedItems: 
+      item:
+        Name: 
+        Id: -1
+        uiDisplay: {fileID: 0}
+        description: 
+      amount: 0
+    - AllowedItems: 
+      item:
+        Name: 
+        Id: -1
+        uiDisplay: {fileID: 0}
+        description: 
+      amount: 0
+    - AllowedItems: 
+      item:
+        Name: 
+        Id: 7
+        uiDisplay: {fileID: 0}
+        description: 
+      amount: 10
+    - AllowedItems: 
+      item:
+        Name: 
+        Id: 8
+        uiDisplay: {fileID: 0}
+        description: 
+      amount: 10
+    - AllowedItems: 
+      item:
+        Name: 
+        Id: 9
+        uiDisplay: {fileID: 0}
+        description: 
+      amount: 10

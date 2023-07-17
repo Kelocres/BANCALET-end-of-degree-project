@@ -12,12 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2594fbc8c3e1ae4d8b92d863ab7feb1, type: 3}
   m_Name: Planta_Alberginia
   m_EditorClassIdentifier: 
+  tamanyPlanta: 0.7
   fases:
-  - finsDia: 3
+  - finsDia: 4
     spriteSenseCollita: {fileID: 454036861287180701, guid: 340fa24e1d3f5b44380a0a46cf88266f, type: 3}
     spriteAmbCollita: {fileID: 0}
     maxCollita: 0
-  - finsDia: 6
+  - finsDia: 7
     spriteSenseCollita: {fileID: 971471975523994675, guid: 340fa24e1d3f5b44380a0a46cf88266f, type: 3}
     spriteAmbCollita: {fileID: 0}
     maxCollita: 0

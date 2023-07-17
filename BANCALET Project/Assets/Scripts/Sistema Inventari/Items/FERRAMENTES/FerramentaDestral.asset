@@ -15,8 +15,7 @@ MonoBehaviour:
   uiDisplay: {fileID: -8073552546762779511, guid: 0531fbe9b80724d4eb41c57d0cde2f21, type: 3}
   stackable: 0
   type: 2
-  description: "Ferramenta per a tallar plantes o llevar basura de la terra.\nUtilitzar-la
-    gasta 10 punts de Resist\xE8ncia."
+  description: "Ferramenta per a tallar plantes.\nUtilitzar-la gasta un 10% de Resist\xE8ncia."
   data:
     Name: Ferramenta
     Id: 10

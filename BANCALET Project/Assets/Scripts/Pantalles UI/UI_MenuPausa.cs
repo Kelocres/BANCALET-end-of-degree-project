@@ -18,6 +18,7 @@ public class UI_MenuPausa : UI_Menu
     public void QuitGame()
     {
         Debug.Log("UI_MenuPausa QuitGame()");
+        FindObjectOfType<SoundManager>().StopMusic();
         Application.Quit();
     }
 }

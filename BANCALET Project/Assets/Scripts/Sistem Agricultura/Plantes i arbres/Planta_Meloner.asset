@@ -12,20 +12,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2594fbc8c3e1ae4d8b92d863ab7feb1, type: 3}
   m_Name: Planta_Meloner
   m_EditorClassIdentifier: 
+  tamanyPlanta: 0.7
   fases:
-  - finsDia: 6
+  - finsDia: 4
     spriteSenseCollita: {fileID: 6660662789775640242, guid: f76ec6ce78a81694288f48b6bd619303, type: 3}
     spriteAmbCollita: {fileID: 0}
     maxCollita: 0
-  - finsDia: 14
+  - finsDia: 8
     spriteSenseCollita: {fileID: -7026634633205479420, guid: f76ec6ce78a81694288f48b6bd619303, type: 3}
     spriteAmbCollita: {fileID: 0}
     maxCollita: 0
-  - finsDia: 20
+  - finsDia: 12
     spriteSenseCollita: {fileID: -2304267760399230144, guid: f76ec6ce78a81694288f48b6bd619303, type: 3}
     spriteAmbCollita: {fileID: -3728089470388618071, guid: f76ec6ce78a81694288f48b6bd619303, type: 3}
     maxCollita: 1
-  - finsDia: 30
+  - finsDia: 17
     spriteSenseCollita: {fileID: -2304267760399230144, guid: f76ec6ce78a81694288f48b6bd619303, type: 3}
     spriteAmbCollita: {fileID: -102713561324472685, guid: f76ec6ce78a81694288f48b6bd619303, type: 3}
     maxCollita: 3

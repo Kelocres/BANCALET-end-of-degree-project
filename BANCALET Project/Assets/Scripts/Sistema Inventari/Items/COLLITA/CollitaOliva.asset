@@ -15,8 +15,8 @@ MonoBehaviour:
   uiDisplay: {fileID: -7394611123096392046, guid: 0531fbe9b80724d4eb41c57d0cde2f21, type: 3}
   stackable: 1
   type: 1
-  description: "Collita de la olivera. \nTe la pots menjar per a recuperar 5 punts
-    d'Alimentaci\xF3 o extraure la llavor des de l'Inventari."
+  description: "Collita de l'olivera. \nTe la pots menjar per a recuperar un 5% d'Alimentaci\xF3
+    o extraure la llavor des de l'Inventari."
   data:
     Name: Oliva
     Id: 3

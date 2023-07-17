@@ -20,8 +20,16 @@ public class MostrarHora : MonoBehaviour
     {
         //SoundManager.instance.StartMusic(menuTheme);
         if (txtHora != null && lightManager)
-            txtHora.text = lightManager.GetTimeOfDay().ToString();
+        {
+            int hours = (int)lightManager.GetTimeOfDay();
+            float decimals = (lightManager.GetTimeOfDay() % 1) * 10;
+            int minutes = ((int)decimals * 60) / 10;
+            //Debug.Log("MostraHora Update() x=" + x);
+
+            txtHora.text = hours.ToString()+":"+minutes.ToString();
             //txtHora.text = Data_Lighting.instance.GetTimeOfDay().ToString();
+        }
+
 
 
     }

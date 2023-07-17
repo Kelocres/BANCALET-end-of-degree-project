@@ -7,10 +7,12 @@ public class DesmaigScript : MonoBehaviour
     LightingManager lm;
     public int HORA_DESMAIG = 2;
     public IniciaTimeline timelineDesmaig;
+    private SoundManager soundManager;
     // Start is called before the first frame update
     void Start()
     {
         lm = FindObjectOfType<LightingManager>();
+        soundManager = FindObjectOfType<SoundManager>();
         if(lm != null)
         {
             lm.eventHora += ComporovarHora;
@@ -31,7 +33,7 @@ public class DesmaigScript : MonoBehaviour
             Debug.Log("DesmaigScript ComprovarHora() timelineDesmaig == null!!!");
             return;
         }
-
+        soundManager.StopMusic();
         timelineDesmaig.StartTimeline();
     }
 }

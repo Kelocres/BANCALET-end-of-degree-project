@@ -12,23 +12,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2594fbc8c3e1ae4d8b92d863ab7feb1, type: 3}
   m_Name: Planta_Tomaquera
   m_EditorClassIdentifier: 
+  tamanyPlanta: 0.7
   fases:
-  - finsDia: 3
+  - finsDia: 2
     spriteSenseCollita: {fileID: -8712005611152280002, guid: 8ca71d6f76c83db4e8d1dc7afac28291, type: 3}
     spriteAmbCollita: {fileID: 0}
     maxCollita: 0
-  - finsDia: 6
+  - finsDia: 4
     spriteSenseCollita: {fileID: -6191941473148176084, guid: 8ca71d6f76c83db4e8d1dc7afac28291, type: 3}
     spriteAmbCollita: {fileID: 0}
     maxCollita: 0
-  - finsDia: 10
+  - finsDia: 8
     spriteSenseCollita: {fileID: 1734736835251752878, guid: 8ca71d6f76c83db4e8d1dc7afac28291, type: 3}
     spriteAmbCollita: {fileID: -1795697737678743399, guid: 8ca71d6f76c83db4e8d1dc7afac28291, type: 3}
     maxCollita: 3
-  - finsDia: 15
+  - finsDia: 12
     spriteSenseCollita: {fileID: -4641321808947410082, guid: 8ca71d6f76c83db4e8d1dc7afac28291, type: 3}
     spriteAmbCollita: {fileID: -1472722218303278502, guid: 8ca71d6f76c83db4e8d1dc7afac28291, type: 3}
     maxCollita: 8
-  collita: {fileID: 11400000, guid: 4c090ee4d5e12b2439552e99e10f48f1, type: 2}
+  collita: {fileID: 11400000, guid: 4d820d048ca2a2543a5d816b10cac220, type: 2}
   aiguaNecessaria: 0
   spriteMort: {fileID: 4919690725751544288, guid: 8ca71d6f76c83db4e8d1dc7afac28291, type: 3}

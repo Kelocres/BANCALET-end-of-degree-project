@@ -16,7 +16,7 @@ MonoBehaviour:
   stackable: 1
   type: 1
   description: "Collita de la planta d'alberg\xEDnia. \nTe la pots menjar per a recuperar
-    15 punts d'Alimentaci\xF3 o extraure la llavor des de l'Inventari."
+    un 15% d'Alimentaci\xF3 o extraure la llavor des de l'Inventari."
   data:
     Name: "Alberg\xEDnia"
     Id: 0

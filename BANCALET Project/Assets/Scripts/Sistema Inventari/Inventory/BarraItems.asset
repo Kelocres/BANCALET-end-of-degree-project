@@ -33,13 +33,6 @@ MonoBehaviour:
     - AllowedItems: 
       item:
         Name: 
-        Id: 9
-        uiDisplay: {fileID: 0}
-        description: 
-      amount: 1
-    - AllowedItems: 
-      item:
-        Name: 
         Id: 12
         uiDisplay: {fileID: 0}
         description: 
@@ -54,10 +47,17 @@ MonoBehaviour:
     - AllowedItems: 
       item:
         Name: 
-        Id: 9
+        Id: -1
         uiDisplay: {fileID: 0}
         description: 
-      amount: 20
+      amount: 0
+    - AllowedItems: 
+      item:
+        Name: 
+        Id: -1
+        uiDisplay: {fileID: 0}
+        description: 
+      amount: 0
     - AllowedItems: 
       item:
         Name: 

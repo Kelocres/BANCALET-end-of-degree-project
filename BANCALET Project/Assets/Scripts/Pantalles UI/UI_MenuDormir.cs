@@ -9,12 +9,14 @@ public class UI_MenuDormir : UI_Menu
 
     public FeedingSystem feedingSystem;
     public Text txtMissatge;
+    private SoundManager soundManager;
 
     void Start()
     {
         //Debug.Log("UI_MenuDormir Start()");
         currentWordKey = "";
         SetButtons();
+        soundManager = FindObjectOfType<SoundManager>();
 
         if(feedingSystem == null)
         {
@@ -34,6 +36,7 @@ public class UI_MenuDormir : UI_Menu
     {
         //Debug.Log("UI_MenuDormir Sleep()");
         BackToGame();
+        soundManager.StopMusic();
         if (timeline != null) timeline.StartTimeline();
     }
 

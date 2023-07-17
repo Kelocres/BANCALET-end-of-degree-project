@@ -25,6 +25,7 @@ public class ManejaPartida : MonoBehaviour
     public bool canviarAnimPJ = true;
 
     public Animator animatorPantallaNegra;
+    public AudioClip musicaPrincipal;
 
     // Start is called before the first frame update
     void Awake()
@@ -44,7 +45,14 @@ public class ManejaPartida : MonoBehaviour
         //Determinar idioma del joc (es farà segons la opció seleccionada en la pantalla d'inici)
         idiomaActual = idiomesPossibles[0];
         //Començar segons el guió
+        if (musicaPrincipal != null)
+        {
+            Debug.Log("ManejaPartida IniciarEscena() Musica principal");
+            //SoundManager.instance.StartMusic(musicaPrincipal);
+            FindObjectOfType<SoundManager>().StartMusic(musicaPrincipal);
+        }
         if (ferIniciarEscena) IniciarEscena();
+
     }
 
     // Update is called once per frame
@@ -86,6 +94,7 @@ public class ManejaPartida : MonoBehaviour
             //Inicialitzar el detectiu amb ExplorarState
             //DetectiuStateManager dStateManager = detectiu.GetComponent<DetectiuStateManager>();
             dStateManager.CanviarState_Explorar();
+            
         }
 
         if (inici != null)

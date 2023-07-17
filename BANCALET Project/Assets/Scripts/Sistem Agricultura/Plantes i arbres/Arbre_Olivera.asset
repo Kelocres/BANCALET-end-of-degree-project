@@ -18,26 +18,26 @@ MonoBehaviour:
     spriteSenseCollita: {fileID: 7415167150492596888, guid: 4a0f39d1c89dad2408dc7cda589518ac, type: 3}
     spriteAmbCollita: {fileID: 0}
     maxCollita: 0
-  - finsDia: 7
+  - finsDia: 6
     spriteSenseCollita: {fileID: 2199996547067832923, guid: 4a0f39d1c89dad2408dc7cda589518ac, type: 3}
     spriteAmbCollita: {fileID: 0}
     maxCollita: 0
-  - finsDia: 14
+  - finsDia: 8
     spriteSenseCollita: {fileID: 5514776329884782782, guid: 4a0f39d1c89dad2408dc7cda589518ac, type: 3}
     spriteAmbCollita: {fileID: 0}
     maxCollita: 0
-  - finsDia: 20
+  - finsDia: 10
     spriteSenseCollita: {fileID: 2819569224851360195, guid: 4a0f39d1c89dad2408dc7cda589518ac, type: 3}
     spriteAmbCollita: {fileID: 0}
     maxCollita: 0
-  - finsDia: 40
+  - finsDia: 15
     spriteSenseCollita: {fileID: -1938990365047810602, guid: 4a0f39d1c89dad2408dc7cda589518ac, type: 3}
     spriteAmbCollita: {fileID: 2284115208913237797, guid: 4a0f39d1c89dad2408dc7cda589518ac, type: 3}
-    maxCollita: 3
-  - finsDia: 60
+    maxCollita: 8
+  - finsDia: 20
     spriteSenseCollita: {fileID: -6713562667032227091, guid: 4a0f39d1c89dad2408dc7cda589518ac, type: 3}
     spriteAmbCollita: {fileID: -4962158013184372828, guid: 4a0f39d1c89dad2408dc7cda589518ac, type: 3}
-    maxCollita: 8
-  collita: {fileID: 11400000, guid: 6f3e95688c8401c429cbd97a45c369ce, type: 2}
+    maxCollita: 15
+  collita: {fileID: 11400000, guid: 9755dd889aa36c941b48a1e5bab40d9d, type: 2}
   aiguaNecessaria: 0
   spriteMort: {fileID: 4024479566873031447, guid: 4a0f39d1c89dad2408dc7cda589518ac, type: 3}

@@ -15,7 +15,7 @@ MonoBehaviour:
   uiDisplay: {fileID: -1414037665772149991, guid: 0531fbe9b80724d4eb41c57d0cde2f21, type: 3}
   stackable: 1
   type: 3
-  description: "Plantala per a fer creixer una alberg\xEDnia.\nSi ho regues cada
+  description: "Planta-la per a fer creixer una alberg\xEDnia.\nSi la regues cada
     dia, donar\xE0 collita al dia 12.\nEs morir\xE0 al dia 30."
   data:
     Name: Llavor d'alberginia

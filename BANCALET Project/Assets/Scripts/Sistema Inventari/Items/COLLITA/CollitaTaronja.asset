@@ -15,7 +15,7 @@ MonoBehaviour:
   uiDisplay: {fileID: 3232881604775647147, guid: 0531fbe9b80724d4eb41c57d0cde2f21, type: 3}
   stackable: 1
   type: 1
-  description: "Collita del taronjer. \nTe la pots menjar per a recuperar 10 punts
+  description: "Collita del taronjer. \nTe la pots menjar per a recuperar un 20%
     d'Alimentaci\xF3 o extraure la llavor des de l'Inventari."
   data:
     Name: Taronja
@@ -25,5 +25,5 @@ MonoBehaviour:
   actionConsumption: 1
   accioAnim: defecte
   costVenta: 0
-  quanti_Alimentar: 10
+  quanti_Alimentar: 20
   seed: {fileID: 11400000, guid: 5f2e86a5ade558044bcbeba895ac5b77, type: 2}

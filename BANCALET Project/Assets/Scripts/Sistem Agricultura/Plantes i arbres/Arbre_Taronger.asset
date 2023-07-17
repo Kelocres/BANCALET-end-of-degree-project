@@ -14,30 +14,30 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tamanyPlanta: 1
   fases:
-  - finsDia: 5
+  - finsDia: 4
     spriteSenseCollita: {fileID: 2110989107626907503, guid: 64fd6e71b177f5940bdcea4c85cdb78e, type: 3}
     spriteAmbCollita: {fileID: 0}
     maxCollita: 0
-  - finsDia: 9
+  - finsDia: 6
     spriteSenseCollita: {fileID: 727073886889841973, guid: 64fd6e71b177f5940bdcea4c85cdb78e, type: 3}
     spriteAmbCollita: {fileID: 0}
     maxCollita: 0
-  - finsDia: 13
+  - finsDia: 8
     spriteSenseCollita: {fileID: 5933036888983394440, guid: 64fd6e71b177f5940bdcea4c85cdb78e, type: 3}
     spriteAmbCollita: {fileID: 0}
     maxCollita: 0
-  - finsDia: 20
+  - finsDia: 10
     spriteSenseCollita: {fileID: 154969072085476966, guid: 64fd6e71b177f5940bdcea4c85cdb78e, type: 3}
     spriteAmbCollita: {fileID: 0}
     maxCollita: 0
-  - finsDia: 40
+  - finsDia: 15
     spriteSenseCollita: {fileID: 1518878476320858926, guid: 64fd6e71b177f5940bdcea4c85cdb78e, type: 3}
     spriteAmbCollita: {fileID: 5425849744146759632, guid: 64fd6e71b177f5940bdcea4c85cdb78e, type: 3}
     maxCollita: 2
-  - finsDia: 60
+  - finsDia: 20
     spriteSenseCollita: {fileID: 7420217085834897556, guid: 64fd6e71b177f5940bdcea4c85cdb78e, type: 3}
     spriteAmbCollita: {fileID: -581349599227329761, guid: 64fd6e71b177f5940bdcea4c85cdb78e, type: 3}
     maxCollita: 6
-  collita: {fileID: 11400000, guid: ff1c78fabe839114cbcea8db39e5c33c, type: 2}
+  collita: {fileID: 11400000, guid: 309588bad88680a41af9abd42e4c90ac, type: 2}
   aiguaNecessaria: 0
   spriteMort: {fileID: -1898577403946993, guid: 64fd6e71b177f5940bdcea4c85cdb78e, type: 3}
