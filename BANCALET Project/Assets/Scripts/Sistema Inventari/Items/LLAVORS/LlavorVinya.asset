@@ -16,7 +16,7 @@ MonoBehaviour:
   stackable: 1
   type: 3
   description: "Planta-la per a fer creixer una vinya.\nSi la regues cada dia, donar\xE0
-    collita al dia 20.\nEs morir\xE0 al dia 60."
+    collita al dia 10.\nEs morir\xE0 al dia 20."
   data:
     Name: Llavor de vinya
     Id: 18

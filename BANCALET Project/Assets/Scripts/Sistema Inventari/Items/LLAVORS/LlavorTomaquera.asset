@@ -16,7 +16,7 @@ MonoBehaviour:
   stackable: 1
   type: 3
   description: "Planta-la per a fer creixer una tomaquera.\nSi la regues cada dia,
-    donar\xE0 collita al dia 6.\nEs morir\xE0 al dia 15."
+    donar\xE0 collita al dia 4.\nEs morir\xE0 al dia 12."
   data:
     Name: Llavor de tomaquera
     Id: 18

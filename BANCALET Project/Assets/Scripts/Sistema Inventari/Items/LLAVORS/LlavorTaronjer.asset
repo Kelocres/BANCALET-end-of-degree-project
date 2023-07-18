@@ -16,7 +16,7 @@ MonoBehaviour:
   stackable: 1
   type: 3
   description: "Plantala per a fer creixer un taronjer.\nSi ho regues cada dia, donar\xE0
-    collita al dia 20.\nEs morir\xE0 al dia60."
+    collita al dia 10.\nEs morir\xE0 al dia 20."
   data:
     Name: Llavor de Taronjer
     Id: 16

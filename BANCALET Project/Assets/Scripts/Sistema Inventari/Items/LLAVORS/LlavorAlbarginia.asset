@@ -16,7 +16,7 @@ MonoBehaviour:
   stackable: 1
   type: 3
   description: "Planta-la per a fer creixer una alberg\xEDnia.\nSi la regues cada
-    dia, donar\xE0 collita al dia 12.\nEs morir\xE0 al dia 30."
+    dia, donar\xE0 collita al dia 7.\nEs morir\xE0 al dia 15."
   data:
     Name: Llavor d'alberginia
     Id: 12

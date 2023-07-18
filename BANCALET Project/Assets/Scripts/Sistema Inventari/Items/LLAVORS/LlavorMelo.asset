@@ -16,7 +16,7 @@ MonoBehaviour:
   stackable: 1
   type: 3
   description: "Planta-la per a fer creixer un meloner.\nSi la regues cada dia, donar\xE0
-    collita al dia 14.\nEs morir\xE0 al dia 30."
+    collita al dia 8.\nEs morir\xE0 al dia 17."
   data:
     Name: Llavor de meloner
     Id: 14
