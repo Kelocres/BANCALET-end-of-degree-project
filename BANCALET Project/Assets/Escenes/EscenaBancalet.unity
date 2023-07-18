@@ -15,12 +15,12 @@ RenderSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 9
   m_Fog: 0
-  m_FogColor: {r: 0.68160486, g: 0.46233818, b: 0.137607, a: 1}
+  m_FogColor: {r: 0.6820896, g: 0.5124806, b: 0.21268195, a: 1}
   m_FogMode: 3
   m_FogDensity: 0.01
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
-  m_AmbientSkyColor: {r: 0.76107025, g: 0.63716274, b: 0.39537916, a: 1}
+  m_AmbientSkyColor: {r: 0.7750283, g: 0.6823907, b: 0.48412672, a: 1}
   m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
   m_AmbientIntensity: 1
@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.41621596, g: 0.44345614, b: 0.4582771, a: 1}
+  m_IndirectSpecularColor: {r: 0.4442302, g: 0.48749733, b: 0.53979653, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -10778,7 +10778,7 @@ Light:
   serializedVersion: 10
   m_Type: 1
   m_Shape: 0
-  m_Color: {r: 0.4753924, g: 0.4753924, b: 0.4753924, a: 1}
+  m_Color: {r: 0.52654916, g: 0.52654916, b: 0.52654916, a: 1}
   m_Intensity: 1
   m_Range: 10
   m_SpotAngle: 30
@@ -10836,7 +10836,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 944117263}
-  m_LocalRotation: {x: 0.0037240726, y: 0.9952849, z: -0.042566318, w: 0.08707621}
+  m_LocalRotation: {x: 0.010716477, y: 0.9886355, z: -0.12248981, w: 0.08649446}
   m_LocalPosition: {x: 0, y: 3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -15457,7 +15457,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "CREAR\n LLAVORS"
+  m_Text: 'CREAR
+
+    SEMILLAS'
 --- !u!222 &1297156712
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -21339,14 +21341,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DirectionalLight: {fileID: 944117264}
   Preset: {fileID: 11400000, guid: dfed2eae846447848a2613a921319672, type: 2}
-  TimeOfDay: 6.3265243
+  TimeOfDay: 6.941711
   SECONDS_PER_GAMEHOUR: 10
   dataTimeOfDay: {fileID: 11400000, guid: 3b8c6db63fe5b404c924b4dc704b700e, type: 2}
   WAKING_HOUR: 6
   WAKING_AFTER_FAINT_HOUR: 12
-  getAmbientColor: {r: 0.76107025, g: 0.63716274, b: 0.39537916, a: 1}
-  getFogColor: {r: 0.68160486, g: 0.46233818, b: 0.137607, a: 1}
-  getDirectionalLightColor: {r: 0.4753924, g: 0.4753924, b: 0.4753924, a: 1}
+  getAmbientColor: {r: 0.7750283, g: 0.6823907, b: 0.48412672, a: 1}
+  getFogColor: {r: 0.6820896, g: 0.5124806, b: 0.21268195, a: 1}
+  getDirectionalLightColor: {r: 0.52654916, g: 0.52654916, b: 0.52654916, a: 1}
 --- !u!4 &1869182364
 Transform:
   m_ObjectHideFlags: 0
@@ -25110,7 +25112,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: TORNAR AL JOC
+  m_Text: VOLVER AL JUEGO
 --- !u!224 &2255714448875094028
 RectTransform:
   m_ObjectHideFlags: 0
@@ -25268,7 +25270,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: MENU PAUSA
+  m_Text: "MEN\xDA PAUSA"
 --- !u!224 &2255714449185922858
 RectTransform:
   m_ObjectHideFlags: 0
@@ -25644,7 +25646,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: INVENTARI
+  m_Text: INVENTARIO
 --- !u!224 &2255714449942300369
 RectTransform:
   m_ObjectHideFlags: 0
@@ -25676,7 +25678,7 @@ GameObject:
   - component: {fileID: 2255714449942300375}
   - component: {fileID: 2255714449942300368}
   m_Layer: 5
-  m_Name: TitolPausa
+  m_Name: Titol
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -27649,6 +27651,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1274250386}
     m_Modifications:
+    - target: {fileID: 5058011351137778779, guid: 05f113e3ea4893d49a3187380d6fb9ce, type: 3}
+      propertyPath: m_Text
+      value: "MEN\xDA INICIO"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5963733174254278389, guid: 05f113e3ea4893d49a3187380d6fb9ce, type: 3}
+      propertyPath: m_Text
+      value: INVENTARIO
+      objectReference: {fileID: 0}
+    - target: {fileID: 5963733174465350111, guid: 05f113e3ea4893d49a3187380d6fb9ce, type: 3}
+      propertyPath: m_Text
+      value: VOLVER AL JUEGO
+      objectReference: {fileID: 0}
+    - target: {fileID: 5963733174533645998, guid: 05f113e3ea4893d49a3187380d6fb9ce, type: 3}
+      propertyPath: m_Text
+      value: SALIR DEL JUEGO
+      objectReference: {fileID: 0}
     - target: {fileID: 5963733174815949959, guid: 05f113e3ea4893d49a3187380d6fb9ce, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.5
@@ -27719,7 +27737,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5963733175114039609, guid: 05f113e3ea4893d49a3187380d6fb9ce, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5963733175290421922, guid: 05f113e3ea4893d49a3187380d6fb9ce, type: 3}
       propertyPath: m_Pivot.x
@@ -29843,7 +29861,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
   m_AnchoredPosition: {x: 0, y: -91.20003}
-  m_SizeDelta: {x: 336.51, y: 50.6}
+  m_SizeDelta: {x: 394.48, y: 50.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &8193059795050366293
 MonoBehaviour:
@@ -29878,7 +29896,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: VOLS DORMIR?
+  m_Text: "\xBFQUIERES DORMIR?"
 --- !u!1 &8193059795050366295
 GameObject:
   m_ObjectHideFlags: 0

@@ -15,10 +15,10 @@ MonoBehaviour:
   uiDisplay: {fileID: 3540161357850458499, guid: 0531fbe9b80724d4eb41c57d0cde2f21, type: 3}
   stackable: 1
   type: 3
-  description: "Planta-la per a fer creixer un meloner.\nSi la regues cada dia, donar\xE0
-    collita al dia 8.\nEs morir\xE0 al dia 17."
+  description: "Plantarla har\xE1 crecer un almendro.\nSi lo riegas cada d\xEDa,
+    dar\xE1 cosecha al d\xEDa 8.\nSe morir\xE1 al d\xEDa 17."
   data:
-    Name: Llavor de meloner
+    Name: Semilla de melonero
     Id: 14
     uiDisplay: {fileID: 3540161357850458499, guid: 0531fbe9b80724d4eb41c57d0cde2f21, type: 3}
     description: 

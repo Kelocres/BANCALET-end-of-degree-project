@@ -15,10 +15,10 @@ MonoBehaviour:
   uiDisplay: {fileID: -1414037665772149991, guid: 0531fbe9b80724d4eb41c57d0cde2f21, type: 3}
   stackable: 1
   type: 3
-  description: "Planta-la per a fer creixer una alberg\xEDnia.\nSi la regues cada
-    dia, donar\xE0 collita al dia 7.\nEs morir\xE0 al dia 15."
+  description: "Plantarla har\xE1 crecer una berenjena.\nSi la riegas cada d\xEDa,
+    dar\xE1 cosecha al d\xEDa 7.\nSe morir\xE1 al d\xEDa 15."
   data:
-    Name: Llavor d'alberginia
+    Name: Semilla de berenjena
     Id: 12
     uiDisplay: {fileID: -1414037665772149991, guid: 0531fbe9b80724d4eb41c57d0cde2f21, type: 3}
     description: 

@@ -15,10 +15,10 @@ MonoBehaviour:
   uiDisplay: {fileID: 6852702940268366892, guid: 0531fbe9b80724d4eb41c57d0cde2f21, type: 3}
   stackable: 1
   type: 3
-  description: "Planta-la per a fer creixer una olivera.\nSi la regues cada dia,
-    donar\xE0 collita al dia 10.\nEs morir\xE0 al dia 20."
+  description: "Plantarla har\xE1 crecer un olivo.\nSi lo riegas cada d\xEDa, dar\xE1
+    cosecha al d\xEDa 10.\nSe morir\xE1 al d\xEDa 20."
   data:
-    Name: Llavor d'olivera
+    Name: Semilla de olivo
     Id: 15
     uiDisplay: {fileID: 6852702940268366892, guid: 0531fbe9b80724d4eb41c57d0cde2f21, type: 3}
     description: 
