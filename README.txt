@@ -1,6 +1,6 @@
 Hola
 
-Me llamo Miguel Ángel, y este es el proyecto Unity de Bancalet, mi proyecto gamedev que hago en solitario como trabajo de fin de grado.
+Me llamo Miguel Ángel, y este es el proyecto Unity de Bancalet, mi proyecto gamedev que hice en solitario como trabajo de fin de grado.
 
 El enlace para descargar el ejecutable es éste: https://drive.google.com/file/d/1UvzbC_wqCflPQAlq2ELf1ccBhJUNbYnZ/view?usp=sharing
 CONTROLES:
