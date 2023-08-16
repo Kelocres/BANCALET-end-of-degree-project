@@ -15,7 +15,7 @@ MonoBehaviour:
   uiDisplay: {fileID: 7472357925334588537, guid: 0531fbe9b80724d4eb41c57d0cde2f21, type: 3}
   stackable: 1
   type: 0
-  description: "Te la puedes comer para recuperar 30% de Alimentaci\xF3n."
+  description: It can be eaten to recover 20% Feeding.
   data:
     Name: Coca
     Id: 7

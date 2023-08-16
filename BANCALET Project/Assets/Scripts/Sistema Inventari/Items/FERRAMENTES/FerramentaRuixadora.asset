@@ -15,12 +15,12 @@ MonoBehaviour:
   uiDisplay: {fileID: 7726738285164329880, guid: 0531fbe9b80724d4eb41c57d0cde2f21, type: 3}
   stackable: 0
   type: 2
-  description: 'Herramienta para regar las plantas.
+  description: 'Tool to water plants and trees.
 
-    Utilizarla gasta un 3% de
-    Resistencia.'
+    It can be used consuming 3%
+    Stamina.'
   data:
-    Name: Regadora
+    Name: Watering can
     Id: 11
     uiDisplay: {fileID: 7726738285164329880, guid: 0531fbe9b80724d4eb41c57d0cde2f21, type: 3}
     description: 

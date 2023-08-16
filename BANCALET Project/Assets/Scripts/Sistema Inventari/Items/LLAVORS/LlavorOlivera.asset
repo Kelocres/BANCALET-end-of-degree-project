@@ -15,11 +15,15 @@ MonoBehaviour:
   uiDisplay: {fileID: 6852702940268366892, guid: 0531fbe9b80724d4eb41c57d0cde2f21, type: 3}
   stackable: 1
   type: 3
-  description: "Plantarla har\xE1 crecer un olivo.\nSi lo riegas cada d\xEDa, dar\xE1
-    cosecha al d\xEDa 10.\nSe morir\xE1 al d\xEDa 20."
+  description: 'Plant it to create an olive tree.
+
+    If it is watered every day,
+    it will provide harvest in 10 days.
+
+    It will die in 20 days.'
   data:
-    Name: Semilla de olivo
-    Id: 15
+    Name: Olive seed
+    Id: 16
     uiDisplay: {fileID: 6852702940268366892, guid: 0531fbe9b80724d4eb41c57d0cde2f21, type: 3}
     description: 
   actionConsumption: 1

@@ -15,10 +15,14 @@ MonoBehaviour:
   uiDisplay: {fileID: -8962105117469533300, guid: 0531fbe9b80724d4eb41c57d0cde2f21, type: 3}
   stackable: 1
   type: 3
-  description: "Plantarla har\xE1 crecer un tomatero.\nSi lo riegas cada d\xEDa,
-    dar\xE1 cosecha al d\xEDa 4.\nSe morir\xE1 al d\xEDa 12."
+  description: 'Plant it to create a tomato plant.
+
+    If it is watered every day,
+    it will provide harvest in 4 days.
+
+    It will die in 12 days.'
   data:
-    Name: Semilla de tomatero
+    Name: Tomato seed
     Id: 18
     uiDisplay: {fileID: -8962105117469533300, guid: 0531fbe9b80724d4eb41c57d0cde2f21, type: 3}
     description: 

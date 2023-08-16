@@ -15,10 +15,12 @@ MonoBehaviour:
   uiDisplay: {fileID: -7394611123096392046, guid: 0531fbe9b80724d4eb41c57d0cde2f21, type: 3}
   stackable: 1
   type: 1
-  description: "Cosecha del olivo.\nTe la puedes comer para recuperar 5% de Alimentaci\xF3n
-    o extraer su semilla desde el inventario."
+  description: 'Harvest from the olive tree.
+
+    You can eat it to recover 5% Feeding
+    or extract its seed from the inventory.'
   data:
-    Name: Oliva
+    Name: Olive
     Id: 3
     uiDisplay: {fileID: -7394611123096392046, guid: 0531fbe9b80724d4eb41c57d0cde2f21, type: 3}
     description: 
