@@ -890,7 +890,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Espera unos segundos a que cargue el juego, por favor...
+  m_text: 'Wait a few seconds so the game can be loaded, please...
 
 '
   m_isRightToLeft: 0
@@ -1661,7 +1661,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Design, programming and art done by
+  m_text: 'Design, programming and art by
 
     M.A. BUIGUES
 

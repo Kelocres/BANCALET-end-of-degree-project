@@ -470,8 +470,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Recorda que tens que alimentar-te b\xE9 abans de dormir, o no recuperar\xE0s
-    prou Stamina al despertar"
+  m_Text: 
 --- !u!222 &30106410
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -29798,7 +29797,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &8193059794936064251
 RectTransform:
   m_ObjectHideFlags: 0
@@ -29900,7 +29899,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\xBFQUIERES DORMIR?"
+  m_Text: GO TO SLEEP?
 --- !u!1 &8193059795050366295
 GameObject:
   m_ObjectHideFlags: 0
@@ -30085,7 +30084,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "S\xCD"
+  m_Text: YES
 --- !u!222 &8193059796039277741
 CanvasRenderer:
   m_ObjectHideFlags: 0
